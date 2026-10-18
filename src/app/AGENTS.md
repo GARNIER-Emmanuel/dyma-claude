@@ -3,6 +3,14 @@
 Ces consignes concernent `src/app/` et ses sous-dossiers. Elles complètent
 `AGENTS.md` à la racine. Respecter le périmètre décrit dans `design-doc.md`.
 
+## Organisation des fichiers
+
+- Organiser les fonctionnalités dans `profile/` et `interviews/`.
+- Regrouper le service unique de persistance et le format versionné dans `storage/`.
+- Conserver les composants, types, validations et tests près de leur fonctionnalité.
+- Garder les fichiers de démarrage et de configuration à la racine de `src/app/`.
+- Créer ces dossiers seulement quand une fonctionnalité en a besoin.
+
 ## Logique métier
 
 - Écrire les validations, tris et filtres comme des fonctions pures : mêmes

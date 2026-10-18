@@ -1,6 +1,6 @@
 # Phase 1 — Modèles et validations métier
 
-Statut : spécification issue de la tranche verticale ; implémentation non commencée et gate non validée.
+Statut : spécification issue de la tranche verticale ; implémentation réalisée et gate locale validée le 18 octobre 2026. Voir [validation.md](validation.md) pour les résultats et preuves. La phase 2 n'est pas commencée.
 
 Source : [tranche-verticale.md — Phase 1 — Données et validations métier](../../../tranche-verticale.md). Lire également le [design-doc](../../../design-doc.md) et les [consignes applicables](../../../AGENTS.md).
 

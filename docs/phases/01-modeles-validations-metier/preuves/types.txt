@@ -1,0 +1,3 @@
+Commande : pnpm exec tsc --project tsconfig.spec.json --noEmit
+Résultat : aucun diagnostic, code de sortie 0.
+Exécution : 18 octobre 2026 ; même état des sources que les autres preuves.

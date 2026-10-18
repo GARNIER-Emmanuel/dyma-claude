@@ -1,0 +1,9 @@
+! Corepack is about to download https://registry.npmjs.org/pnpm/-/pnpm-10.15.1.tgz
+
+ RUN  v5.0.0 C:/dev/Perso/Learn/dymacourse/dyma-claude
+
+
+ Test Files  1 passed (1)
+      Tests  107 passed (107)
+   Start at  10:15:03
+   Duration  158ms (transform 48%, import 34%, tests 11%, worker 7%)

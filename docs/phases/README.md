@@ -13,9 +13,9 @@ Ces sources restent les références. Signaler tout désaccord avant de modifier
 
 ## Navigation
 
-| Phase | Spécification | Plan | Vérifications et preuves | État initial |
+| Phase | Spécification | Plan | Vérifications et preuves | État actuel |
 |---|---|---|---|---|
-| 1 — Modèles et validations métier | [spec.md](01-modeles-validations-metier/spec.md) | [plan-implementation.md](01-modeles-validations-metier/plan-implementation.md) | [validation.md](01-modeles-validations-metier/validation.md) | Plan proposé, en attente de validation |
+| 1 — Modèles et validations métier | [spec.md](01-modeles-validations-metier/spec.md) | [plan-implementation.md](01-modeles-validations-metier/plan-implementation.md) | [validation.md](01-modeles-validations-metier/validation.md) | Implémentée ; gate locale validée le 18 octobre 2026 |
 | 2 — Persistance locale protégée | [spec.md](02-persistance-locale/spec.md) | [plan-implementation.md](02-persistance-locale/plan-implementation.md) | [validation.md](02-persistance-locale/validation.md) | Plan détaillé à préparer après la phase précédente |
 | 3 — Parcours Angular | [spec.md](03-interface-angular/spec.md) | [plan-implementation.md](03-interface-angular/plan-implementation.md) | [validation.md](03-interface-angular/validation.md) | Plan détaillé à préparer après la phase précédente |
 | 4 — Recette finale | [spec.md](04-recette-finale/spec.md) | [plan-implementation.md](04-recette-finale/plan-implementation.md) | [validation.md](04-recette-finale/validation.md) | Plan détaillé à préparer après la phase précédente |
@@ -37,10 +37,10 @@ Ces sources restent les références. Signaler tout désaccord avant de modifier
 
 Pour chaque contrôle, distinguer **réussi**, **échoué** et **non vérifié**. Indiquer les anomalies, les fichiers concernés et leur gravité. Une vérification obligatoire absente ou échouée empêche de déclarer la gate validée.
 
-## État à la création de cette organisation
+## État au 18 octobre 2026
 
-Seule la documentation est ajoutée. Aucun code métier n'est implémenté par cette opération, aucun plan d'implémentation n'est approuvé et aucune gate n'est validée.
+La phase 1 est implémentée : types du profil et de l'entretien, fonctions pures de validation et tests ciblés. Les preuves locales sont disponibles dans son dossier. Les phases 2 à 4 restent à préparer et à implémenter.
 
-Le dépôt observé contient une application Angular qui affiche « JobView » et un test de démarrage. Les versions et scripts sont définis dans les fichiers du projet. Les tests et la compilation n'ont pas été exécutés pour cette réorganisation documentaire.
+L'interface affiche toujours « JobView ». Les tests métier et le test de démarrage passent, ainsi que la compilation de production. La persistance et les parcours navigateur ne sont pas implémentés par cette phase.
 
 Le fichier `AGENTS.md` racine indique encore qu'aucun commit n'existe, alors qu'un historique Git est présent. Ce décalage documentaire est signalé ; sa correction ne fait pas partie de cet ajout.

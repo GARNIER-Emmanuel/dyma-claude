@@ -32,6 +32,14 @@ Une seule application Angular, avec pnpm, sans monorepo ni CLI. Les versions ret
 
 Les fichiers sont organisés dans `src/app/` selon les besoins : composants pour les écrans, types et fonctions pour les règles métier, un service Angular pour le stockage. Il n’est pas nécessaire d’ajouter des packages partagés, des couches supplémentaires ou des interfaces sans besoin concret.
 
+Le rangement suit les fonctionnalités :
+
+- `profile/` : composants, types et règles propres au profil.
+- `interviews/` : liste, formulaire, détail, types et validations des entretiens.
+- `storage/` : service Angular unique de persistance et format de stockage versionné.
+
+Les tests sont placés près des fichiers concernés. Les fichiers de démarrage et de configuration restent à la racine de `src/app/`. Ces dossiers sont créés au fil des besoins, sans dossiers vides anticipés.
+
 Toutes les lectures, écritures et suppressions localStorage passent par ce service unique. Le format des données est versionné. Une lecture illisible ou une version inconnue ne doit jamais être traitée comme un stockage vide, ni conduire à écraser les données existantes. Un échec de sauvegarde est visible et n’est jamais annoncé comme une réussite.
 
 Les textes saisis sont affichés comme du texte, jamais comme du HTML exécutable. Aucune donnée métier ne quitte le navigateur et aucun contenu personnel réel n’est ajouté au dépôt ou aux tests. L’effacement cible uniquement les données JobView.

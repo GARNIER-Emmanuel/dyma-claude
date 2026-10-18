@@ -1,0 +1,16 @@
+
+> jobview@0.0.0 test C:\dev\Perso\Learn\dymacourse\dyma-claude
+> ng test --watch=false
+
+> Building...
+√ Building...
+Application bundle generation complete. [0.938 seconds] - 2026-10-18T08:15:05.389Z
+
+
+ RUN  v5.0.0 C:/dev/Perso/Learn/dymacourse/dyma-claude
+
+
+ Test Files  2 passed (2)
+      Tests  108 passed (108)
+   Start at  10:15:05
+   Duration  1.24s (environment 57%, setup 35%, transform 4%, tests 2%, worker 1%)
