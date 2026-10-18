@@ -1,0 +1,16 @@
+! Corepack is about to download https://registry.npmjs.org/pnpm/-/pnpm-10.15.1.tgz
+
+> jobview@0.0.0 build C:\dev\Perso\Learn\dymacourse\dyma-claude
+> ng build
+
+> Building...
+√ Building...
+Initial chunk files | Names         | Raw size | Estimated transfer size
+main-FJTGZH5A.js    | main          | 93.61 kB |                28.19 kB
+styles-4UO3FPGM.css | styles        | 74 bytes |                74 bytes
+
+                    | Initial total | 93.69 kB |                28.26 kB
+
+Application bundle generation complete. [1.445 seconds] - 2026-10-18T08:30:35.823Z
+
+Output location: C:\dev\Perso\Learn\dymacourse\dyma-claude\dist\jobview

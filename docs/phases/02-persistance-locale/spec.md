@@ -1,6 +1,6 @@
 # Phase 2 — Persistance locale protégée
 
-Statut : spécification issue de la tranche verticale ; implémentation non commencée et gate non validée.
+Statut : implémentée ; gate locale validée le 18 octobre 2026. Voir les [preuves](validation.md). La recette navigateur du parcours reste prévue en phases 3 et 4.
 
 Source : [tranche-verticale.md — Phase 2 — Persistance locale protégée](../../../tranche-verticale.md). Lire également le [design-doc](../../../design-doc.md) et les [consignes applicables](../../../AGENTS.md).
 

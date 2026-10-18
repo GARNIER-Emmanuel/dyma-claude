@@ -1,0 +1,2 @@
+! Corepack is about to download https://registry.npmjs.org/pnpm/-/pnpm-10.15.1.tgz
+Code de sortie : 0

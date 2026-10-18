@@ -16,7 +16,7 @@ Ces sources restent les références. Signaler tout désaccord avant de modifier
 | Phase | Spécification | Plan | Vérifications et preuves | État actuel |
 |---|---|---|---|---|
 | 1 — Modèles et validations métier | [spec.md](01-modeles-validations-metier/spec.md) | [plan-implementation.md](01-modeles-validations-metier/plan-implementation.md) | [validation.md](01-modeles-validations-metier/validation.md) | Implémentée ; gate locale validée le 18 octobre 2026 |
-| 2 — Persistance locale protégée | [spec.md](02-persistance-locale/spec.md) | [plan-implementation.md](02-persistance-locale/plan-implementation.md) | [validation.md](02-persistance-locale/validation.md) | Plan détaillé à préparer après la phase précédente |
+| 2 — Persistance locale protégée | [spec.md](02-persistance-locale/spec.md) | [plan-implementation.md](02-persistance-locale/plan-implementation.md) | [validation.md](02-persistance-locale/validation.md) | Implémentée ; gate locale validée le 18 octobre 2026 |
 | 3 — Parcours Angular | [spec.md](03-interface-angular/spec.md) | [plan-implementation.md](03-interface-angular/plan-implementation.md) | [validation.md](03-interface-angular/validation.md) | Plan détaillé à préparer après la phase précédente |
 | 4 — Recette finale | [spec.md](04-recette-finale/spec.md) | [plan-implementation.md](04-recette-finale/plan-implementation.md) | [validation.md](04-recette-finale/validation.md) | Plan détaillé à préparer après la phase précédente |
 
@@ -39,8 +39,8 @@ Pour chaque contrôle, distinguer **réussi**, **échoué** et **non vérifié**
 
 ## État au 18 octobre 2026
 
-La phase 1 est implémentée : types du profil et de l'entretien, fonctions pures de validation et tests ciblés. Les preuves locales sont disponibles dans son dossier. Les phases 2 à 4 restent à préparer et à implémenter.
+Les phases 1 et 2 sont implémentées : types et validations métier, puis service de persistance locale protégée avec format versionné et tests ciblés. Les preuves locales sont disponibles dans leurs dossiers. Les phases 3 et 4 restent à préparer et à implémenter.
 
-L'interface affiche toujours « JobView ». Les tests métier et le test de démarrage passent, ainsi que la compilation de production. La persistance et les parcours navigateur ne sont pas implémentés par cette phase.
+L'interface affiche toujours « JobView ». Les 270 tests passent, ainsi que la compilation de production et la vérification TypeScript. Le service de persistance est disponible ; son raccordement à l'interface et la recette navigateur restent à réaliser dans les phases suivantes.
 
 Le fichier `AGENTS.md` racine indique encore qu'aucun commit n'existe, alors qu'un historique Git est présent. Ce décalage documentaire est signalé ; sa correction ne fait pas partie de cet ajout.

@@ -28,6 +28,6 @@ Les versions directes sont exactes et `pnpm-lock.yaml` verrouille les dépendanc
 
 ## État actuel
 
-Le socle affiche uniquement « JobView » et possède un test de démarrage Angular. Le profil, les entretiens, le stockage et le déploiement restent à réaliser. La prochaine étape est le parcours profil → création d’un entretien → sauvegarde → réouverture avec les mêmes données.
+L'interface affiche uniquement « JobView ». Les modèles et validations métier (phase 1) et le service de persistance locale protégée (phase 2) sont implémentés et vérifiés localement : 270 tests, compilation et vérification TypeScript réussis. Les [preuves par phase](docs/phases/README.md) détaillent ces contrôles. La prochaine étape est le parcours Angular profil → création d'un entretien → sauvegarde (phase 3), puis la recette avec réouverture réelle du navigateur (phase 4). Le déploiement reste à réaliser.
 
 Pour Vercel, utiliser la racine du projet, Node.js 24 compatible avec les moteurs déclarés, pnpm 10.15.1, la commande `pnpm build` et le répertoire de sortie `dist/jobview/browser/`. Le déploiement et le maintien d’une adresse stable restent à valider. La licence reste à choisir avant diffusion.

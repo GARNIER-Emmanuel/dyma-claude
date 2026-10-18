@@ -1,0 +1,17 @@
+! Corepack is about to download https://registry.npmjs.org/pnpm/-/pnpm-10.15.1.tgz
+
+> jobview@0.0.0 test C:\dev\Perso\Learn\dymacourse\dyma-claude
+> ng test --watch=false
+
+> Building...
+√ Building...
+Application bundle generation complete. [1.269 seconds] - 2026-10-18T08:30:36.216Z
+
+
+ RUN  v5.0.0 C:/dev/Perso/Learn/dymacourse/dyma-claude
+
+
+ Test Files  3 passed (3)
+      Tests  270 passed (270)
+   Start at  10:30:36
+   Duration  1.64s (environment 64%, setup 27%, tests 4%, transform 3%, worker 1%)
