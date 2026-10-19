@@ -1,6 +1,6 @@
 # Phase 4 — plan détaillé de recette finale
 
-Statut : **plan préparé le 19 octobre 2026 ; approbation explicite en attente ; recette non exécutée**.
+Statut : **plan approuvé le 19 octobre 2026 par le message utilisateur « commit puis implemente » ; exécution de la recette autorisée après le commit documentaire**.
 
 Références : [issue #5](https://github.com/GARNIER-Emmanuel/dyma-claude/issues/5), [spécification](spec.md), [tranche verticale](../../../tranche-verticale.md), [conception](../../../design-doc.md), [consignes du dépôt](../../../AGENTS.md) et [consignes applicatives](../../../src/app/AGENTS.md).
 
@@ -8,10 +8,11 @@ Références : [issue #5](https://github.com/GARNIER-Emmanuel/dyma-claude/issues
 
 - Issue #5 ouverte et commentaires lus via le MCP GitHub : aucun commentaire. L'issue #4 est supprimée (réponse GitHub 410) ; l'utilisateur a confirmé que la demande concerne #5.
 - Dépôt propre au départ, branche `codex/phase-3-interface-angular`, HEAD `e66e4d9366a172796db01e99a92ce2b784dbd623`. Branche de travail créée depuis cet état : `codex/phase-4-recette-finale`.
+- Changement externe observé pendant la préparation : HEAD avancé à `7c78db41f14151b7ee4e6d14500e11aca714ecda`, contenant ce plan et une mise à jour de clôture de phase 3 ; suivi de `origin/codex/phase-4-recette-finale` présent. Changements conservés. Aucun changement applicatif dans ce commit ; aucun accord de recette déduit de ce commit.
 - Validations et preuves des phases 1 à 3 relues : 108, 270 puis 319 tests réussis et compilations réussies. La phase 3 documente 13 scénarios Chromium avec mobile émulé. Ces preuves historiques ne remplacent aucun contrôle final.
 - Le code et les preuves de phase 3 figurent dans `11c2724`. Aucun diff entre ce commit et HEAD dans `src/`, `package.json`, `pnpm-lock.yaml` ou `angular.json`. Actualiser les mentions « non commitée » dans la validation de phase 3 et l'index, sans réécrire les preuves historiques.
 - Les trois gates préalables sont documentées comme validées. Les mentions de prérequis non validés en phase 4 étaient obsolètes. Fermeture complète/réouverture et inspection réseau restent à effectuer.
-- La demande autorise la préparation. Elle n'approuve pas le présent plan, qui n'existait pas encore : obtenir l'approbation explicite avant exécution de la recette.
+- Le message utilisateur « commit puis implemente », reçu après présentation du plan détaillé, approuve ce plan et autorise le commit des documents avant exécution. Les corrections applicatives éventuelles restent soumises à accord selon l'issue.
 
 ## Périmètre et exclusions
 

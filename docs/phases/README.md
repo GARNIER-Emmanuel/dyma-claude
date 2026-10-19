@@ -18,7 +18,7 @@ Ces sources restent les références. Signaler tout désaccord avant de modifier
 | 1 — Modèles et validations métier | [spec.md](01-modeles-validations-metier/spec.md) | [plan-implementation.md](01-modeles-validations-metier/plan-implementation.md) | [validation.md](01-modeles-validations-metier/validation.md) | Implémentée ; gate locale validée le 18 octobre 2026 |
 | 2 — Persistance locale protégée | [spec.md](02-persistance-locale/spec.md) | [plan-implementation.md](02-persistance-locale/plan-implementation.md) | [validation.md](02-persistance-locale/validation.md) | Implémentée ; gate locale validée le 18 octobre 2026 |
 | 3 — Parcours Angular | [spec.md](03-interface-angular/spec.md) | [plan-implementation.md](03-interface-angular/plan-implementation.md) | [validation.md](03-interface-angular/validation.md) | Implémentée ; gate locale validée le 19 octobre 2026 |
-| 4 — Recette finale | [spec.md](04-recette-finale/spec.md) | [plan-implementation.md](04-recette-finale/plan-implementation.md) | [validation.md](04-recette-finale/validation.md) | Plan détaillé à préparer après la phase précédente |
+| 4 — Recette finale | [spec.md](04-recette-finale/spec.md) | [plan-implementation.md](04-recette-finale/plan-implementation.md) | [validation.md](04-recette-finale/validation.md) | Plan approuvé le 19 octobre 2026 ; recette autorisée après commit documentaire |
 
 ## Rôle des fichiers
 
@@ -73,4 +73,10 @@ Le plan détaillé a été approuvé par le message utilisateur « commit les do
 
 Le parcours profil → création d'entretien sans profil préalable → liste/détail est utilisable, avec erreurs de validation et de stockage visibles. Les 319 tests, la compilation, les types et 13 scénarios navigateur sont réussis. La [validation](03-interface-angular/validation.md) distingue les commandes, les observations sur PC et les viewports mobiles émulés, et les [preuves](03-interface-angular/preuves/recette-navigateur.md).
 
-La gate locale de phase 3 est validée. L'[issue #3](https://github.com/GARNIER-Emmanuel/dyma-claude/issues/3) a été fermée comme terminée le 19 octobre 2026, avec ses huit critères cochés et un bilan des preuves et limites. Le plan de phase 4 reste à préparer et à approuver ; la fermeture complète/réouverture et l'inspection réseau finale ne sont pas couvertes par cette validation. La branche d'implémentation n'est pas publiée ; aucun push ni merge effectué lors de la clôture.
+La gate locale de phase 3 est validée. L'[issue #3](https://github.com/GARNIER-Emmanuel/dyma-claude/issues/3) a été fermée comme terminée le 19 octobre 2026, avec ses huit critères cochés et un bilan des preuves et limites. La fermeture complète/réouverture et l'inspection réseau finale ne sont pas couvertes par cette validation. La branche d'implémentation n'était pas publiée lors de cette clôture ; aucun push ni merge effectué dans cette revue de clôture.
+
+## Préparation de phase 4 le 19 octobre 2026 — issue #5
+
+L'[issue #5](https://github.com/GARNIER-Emmanuel/dyma-claude/issues/5) et ses commentaires ont été lus via le MCP GitHub ; aucun commentaire. Gates et preuves historiques des phases 1 à 3 relues. Le [plan détaillé](04-recette-finale/plan-implementation.md) fixe données fictives, origine stable, profils Chromium dédiés, tailles PC/mobile, panne simulée, fermeture complète/réouverture et inspection réseau. Il reste **en attente d'approbation explicite**.
+
+La [validation](04-recette-finale/validation.md) distingue la préparation documentaire et les contrôles non exécutés, et consigne le blocage de vérification de pnpm. Branche : `codex/phase-4-recette-finale`. Le commit externe `7c78db4`, apparu pendant la préparation, contient le plan et la mise à jour de clôture de phase 3 ; son suivi distant est présent. Changements préservés, sans déduire une approbation ou une recette réussie. Aucun changement applicatif, scénario de recette, commentaire GitHub, commit ou push réalisé par cet agent dans cette intervention.
