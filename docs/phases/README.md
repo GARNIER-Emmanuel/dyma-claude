@@ -43,4 +43,24 @@ Les phases 1 et 2 sont implémentées : types et validations métier, puis servi
 
 L'interface affiche toujours « JobView ». Les 270 tests passent, ainsi que la compilation de production et la vérification TypeScript. Le service de persistance est disponible ; son raccordement à l'interface et la recette navigateur restent à réaliser dans les phases suivantes.
 
-Le fichier `AGENTS.md` racine indique encore qu'aucun commit n'existe, alors qu'un historique Git est présent. Ce décalage documentaire est signalé ; sa correction ne fait pas partie de cet ajout.
+## Mise à jour documentaire du 19 octobre 2026
+
+L'historique Git est présent et les [consignes du dépôt](../../AGENTS.md#suivi-des-interventions-par-phase-et-par-issue-github) n'affirment plus qu'aucun commit n'existe. La mention obsolète de cet index est retirée. La [conclusion de phase 3](03-interface-angular/validation.md#conclusion) reconnaît désormais les gates locales documentées des phases 1 et 2, tout en maintenant sa propre gate non validée : plan détaillé non préparé et non approuvé, implémentation et vérifications du parcours non réalisées.
+
+Les résultats du 18 octobre restent des preuves historiques locales. Cette correction documentaire ne les remplace pas et ne vaut pas recette navigateur.
+
+### Vérification des critères de l'issue #2
+
+L'[issue #2](https://github.com/GARNIER-Emmanuel/dyma-claude/issues/2) et ses commentaires ont été lus via le MCP GitHub de l'application ; aucun commentaire n'était présent. Les critères ci-dessous ont été vérifiés dans l'état local des [consignes du dépôt](../../AGENTS.md).
+
+| Critère | Preuve documentaire | Résultat local |
+|---|---|---|
+| Règle dans l'AGENTS.md racine avec renvois aux phases | Section « Suivi des interventions par phase et par issue GitHub », règle 1 et lien vers cet index | Réussi |
+| Règles métier non dupliquées | Règle 4 : renvois au design-doc, à la tranche verticale et aux spécifications | Réussi |
+| Conduite en cas de contradiction | Règle 2 : faits et fichiers à signaler, arbitrage si nécessaire, suspension limitée au travail dépendant | Réussi |
+| Preuves distinctes | Règle 5 : tests, compilation et observations navigateur séparés, contrôles non exécutés non vérifiés | Réussi |
+| Exemple de phase 3 sans implémentation | Section « Exemple : préparer une intervention de phase 3 » et revue documentaire dans sa validation | Réussi |
+
+Contrôles documentaires : revue du diff et `git diff --check` réussis ; les cibles des liens locaux des trois documents modifiés existent. L'environnement et l'état Git sont consignés dans la [revue documentaire](03-interface-angular/validation.md#revue-documentaire-du-19-octobre-2026--issue-2). Aucun test applicatif, compilation ou parcours navigateur n'a été exécuté pour cette modification de documentation.
+
+Le compte rendu à publier pourra reprendre ces cinq résultats, les trois fichiers corrigés et les limites de vérification. Aucun commentaire, commit, push ou clôture n'a été effectué dans cette intervention ; la publication de ces changements sur GitHub reste non vérifiée.
