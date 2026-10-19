@@ -1,0 +1,19 @@
+<section aria-labelledby="list-heading">
+  <div class="page-heading"><div><span class="eyebrow">Votre carnet d’opportunités</span><h2 id="list-heading" tabindex="-1">Mes entretiens</h2><p>Une trace de chaque échange, des repères pour la suite.</p></div><button class="primary" type="button" (click)="create.emit()">Nouvel entretien <span aria-hidden="true">+</span></button></div>
+  @if (!available()) {
+    <div class="panel empty-state"><h3>Vos entretiens ne peuvent pas être chargés</h3><p>Consultez le message de stockage. Vos données n’ont pas été remplacées.</p></div>
+  } @else if (interviews().length === 0) {
+    <div class="panel empty-state"><div class="empty-symbol" aria-hidden="true">+</div><h3>Votre prochain entretien commence ici</h3><p>Ajoutez votre premier échange pour garder les informations essentielles et vos impressions.</p><button type="button" (click)="create.emit()">Créer mon premier entretien</button><small>Aucun profil préalable nécessaire.</small></div>
+  } @else {
+    <p class="list-count">{{ interviews().length }} entretien{{ interviews().length > 1 ? 's' : '' }} enregistré{{ interviews().length > 1 ? 's' : '' }}</p>
+    <ul class="interview-list">
+      @for (interview of interviews(); track interview.id) {
+        <li class="panel interview-card"><div class="card-heading"><div><h3>{{ interview.company }}</h3><p>{{ interview.position }}</p></div><span class="contract">{{ interview.contract }}</span></div>
+          <p class="interview-date">{{ interview.date.slice(8, 10) }}/{{ interview.date.slice(5, 7) }}/{{ interview.date.slice(0, 4) }}</p>
+          <dl class="ratings"><div><dt>Conditions</dt><dd>{{ interview.conditionsRating === undefined ? 'Non noté' : interview.conditionsRating + ' / 10' }}</dd></div><div><dt>Compatibilité</dt><dd>{{ interview.compatibilityRating === undefined ? 'Non noté' : interview.compatibilityRating + ' / 10' }}</dd></div><div><dt>Feeling</dt><dd>{{ interview.feeling ?? 'Non renseigné' }}</dd></div></dl>
+          <button type="button" (click)="opened.emit(interview.id)" [attr.aria-label]="'Consulter l’entretien : ' + interview.company + ', ' + interview.position">Consulter l’entretien <span aria-hidden="true">→</span></button>
+        </li>
+      }
+    </ul>
+  }
+</section>

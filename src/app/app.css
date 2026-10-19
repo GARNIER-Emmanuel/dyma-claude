@@ -1,0 +1,17 @@
+.site-header { background: var(--surface); border-bottom: 1px solid var(--border); }
+.header-inner { max-width: 1240px; margin: auto; padding: 1.25rem 2rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.brand { display: flex; align-items: center; gap: .75rem; }
+.brand h1 { font-size: 1.3rem; letter-spacing: -.04em; margin: 0; }
+.brand-mark { background: var(--primary); color: white; border-radius: .65rem; width: 2.4rem; height: 2.4rem; display: grid; place-items: center; font-weight: 700; font-size: 1.15rem; }
+.local-note { color: var(--secondary-text); font-size: .8rem; }
+.local-note span { color: var(--success); padding-right: .4rem; }
+.app-layout { display: grid; grid-template-columns: 210px minmax(0, 1fr); max-width: 1240px; margin: auto; }
+aside { padding: 2.5rem 1rem 2rem 2rem; }
+nav { display: flex; flex-direction: column; gap: .5rem; }
+.nav-label { font-size: .7rem; font-weight: 700; color: var(--secondary-text); text-transform: uppercase; letter-spacing: .1em; margin: 0 0 .75rem .8rem; }
+nav button { border-color: transparent; background: transparent; text-align: left; font-weight: 550; }
+nav button[aria-current] { background: var(--muted); color: var(--primary); border-color: var(--border); }
+.privacy-note { color: var(--secondary-text); font-size: .8rem; line-height: 1.7; margin: 3rem .8rem; }
+main { min-width: 0; padding: 2.5rem 2rem; }
+footer { font-size: .75rem; color: var(--secondary-text); padding-top: 2rem; }
+@media (max-width: 720px) { .header-inner { padding: 1rem; } .local-note { max-width: 10rem; text-align: right; } .app-layout { display: block; } aside { padding: 1rem 1rem 0; } nav { flex-direction: row; } nav button { flex: 1; text-align: center; } .nav-label, .privacy-note { display: none; } main { padding: 1.5rem 1rem; } }

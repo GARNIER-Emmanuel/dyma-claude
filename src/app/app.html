@@ -1,3 +1,16 @@
-<main>
-  <h1>JobView</h1>
-</main>
+<a href="#main-content" class="skip-link">Aller au contenu</a>
+<header class="site-header"><div class="header-inner"><div class="brand"><span class="brand-mark" aria-hidden="true">jv</span><h1>JobView</h1></div><span class="local-note"><span aria-hidden="true">●</span> Vos données dans ce navigateur</span></div></header>
+<div class="app-layout">
+  <aside><nav aria-label="Espaces"><span class="nav-label">Mon espace</span><button type="button" [attr.aria-current]="space() === 'interviews' ? 'page' : null" (click)="navigate('interviews')">Mes entretiens</button><button type="button" [attr.aria-current]="space() === 'profile' ? 'page' : null" (click)="navigate('profile')">Mon profil</button></nav><p class="privacy-note">Un carnet personnel.<br />Sans compte, à votre rythme.</p></aside>
+  <main id="main-content" tabindex="-1">
+    <div role="status" aria-live="polite">@if (notice()) { <p class="notice">{{ notice() }}</p> }</div>
+    @if (error()) { <div class="error-banner" role="alert"><strong>Enregistrement indisponible</strong><p>{{ error() }}</p>@if (unsafe()) { <button type="button" (click)="reload()">Réessayer la lecture</button> }</div> }
+    <section [hidden]="space() !== 'profile'" aria-label="Mon profil"><app-profile-form [profile]="data()?.profile ?? null" [blocked]="unsafe() !== null" (submitted)="saveProfile($event)" (changed)="clearFeedback()" /></section>
+    <section [hidden]="space() !== 'interviews'" aria-label="Mes entretiens">
+      <div [hidden]="screen() !== 'list'"><app-interview-list [interviews]="data()?.interviews ?? []" [available]="unsafe() === null" (create)="show('create')" (opened)="open($event)" /></div>
+      <div [hidden]="screen() !== 'create'"><app-interview-form [blocked]="unsafe() !== null" (submitted)="addInterview($event)" (changed)="clearFeedback()" (cancelled)="show('list')" /></div>
+      @if (screen() === 'detail') { @if (selected(); as interview) { <app-interview-detail [interview]="interview" (closed)="show('list')" /> } @else { <div class="panel form-panel"><h2 id="detail-heading" tabindex="-1">Entretien indisponible</h2><button type="button" (click)="show('list')">Retour à la liste</button></div> } }
+    </section>
+    <footer>Les données sont propres à ce navigateur et à cet appareil.</footer>
+  </main>
+</div>

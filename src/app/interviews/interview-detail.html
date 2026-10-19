@@ -1,0 +1,12 @@
+<article class="panel form-panel" aria-labelledby="detail-heading">
+  <button type="button" class="back-button" (click)="closed.emit()"><span aria-hidden="true">←</span> Mes entretiens</button>
+  <div class="section-intro"><span class="eyebrow">Détail de l’entretien</span><h2 id="detail-heading" tabindex="-1">{{ interview().company }}</h2><p>{{ interview().position }}</p></div>
+  <dl class="detail-grid">
+    <div><dt>Date de l’entretien</dt><dd>{{ interview().date.slice(8, 10) }}/{{ interview().date.slice(5, 7) }}/{{ interview().date.slice(0, 4) }}</dd></div>
+    <div><dt>Contrat</dt><dd>{{ interview().contract }}</dd></div>
+    <div><dt>Performance des conditions</dt><dd>{{ interview().conditionsRating === undefined ? 'Non noté' : interview().conditionsRating + ' / 10' }}</dd></div>
+    <div><dt>Compatibilité</dt><dd>{{ interview().compatibilityRating === undefined ? 'Non noté' : interview().compatibilityRating + ' / 10' }}</dd></div>
+    <div><dt>Feeling</dt><dd>{{ interview().feeling ?? 'Non renseigné' }}</dd></div>
+  </dl>
+  <p class="form-hint">Vos deux notes sont manuelles et restent indépendantes de votre profil et du feeling.</p>
+</article>

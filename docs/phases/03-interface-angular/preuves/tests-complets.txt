@@ -1,0 +1,18 @@
+
+> jobview@0.0.0 test C:\dev\Perso\Learn\dymacourse\dyma-claude
+> ng test --watch=false
+
+Using Vitest configuration file: C:\dev\Perso\Learn\dymacourse\dyma-claude\vitest-base.config.mts
+> Building...
+√ Building...
+Application bundle generation complete. [1.440 seconds] - 2026-10-19T19:38:48.869Z
+
+
+ RUN  v5.0.0 C:/dev/Perso/Learn/dymacourse/dyma-claude
+
+
+ Test Files  8 passed (8)
+      Tests  319 passed (319)
+   Start at  21:38:49
+   Duration  2.61s (environment 69%, setup 17%, tests 8%, transform 4%, import 1%, worker 1%)
+

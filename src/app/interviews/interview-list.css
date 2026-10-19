@@ -1,0 +1,15 @@
+.interview-list { display: grid; gap: 1rem; padding: 0; list-style: none; }
+.interview-card { padding: 1.5rem; }
+.card-heading { display: flex; justify-content: space-between; gap: 1rem; align-items: start; }
+.card-heading h3 { margin: 0 0 .25rem; }
+.card-heading p { margin: 0; }
+.contract { padding: .25rem .65rem; border-radius: .4rem; background: var(--muted); font-size: .85rem; max-width: 45%; overflow-wrap: anywhere; }
+.interview-date, .list-count { color: var(--secondary-text); font-size: .9rem; }
+.ratings { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0; }
+.ratings dd { margin: .25rem 0 0; font-weight: 650; }
+.ratings dt { color: var(--secondary-text); font-size: .85rem; }
+.empty-state { padding: clamp(1.5rem, 5vw, 4rem); text-align: center; }
+.empty-state p { max-width: 31rem; margin: .75rem auto 1.5rem; }
+.empty-state small { display: block; margin-top: 1rem; }
+.empty-symbol { width: 3rem; height: 3rem; margin: 0 auto 1.5rem; border-radius: 1rem; background: var(--muted); color: var(--primary); font-size: 2rem; }
+@media (max-width: 450px) { .ratings { grid-template-columns: 1fr; gap: .75rem; } .ratings > div { display: flex; justify-content: space-between; gap: 1rem; } .ratings dd { margin: 0; } }

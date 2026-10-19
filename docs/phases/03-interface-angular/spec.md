@@ -1,6 +1,6 @@
 # Phase 3 — Parcours Angular
 
-Statut : spécification issue de la tranche verticale ; implémentation non commencée et gate non validée.
+Statut : spécification implémentée ; gate locale de phase 3 validée le 19 octobre 2026. Voir les résultats et limites dans [validation.md](validation.md). La phase 4 reste à planifier et à approuver.
 
 Source : [tranche-verticale.md — Phase 3 — Parcours Angular de bout en bout](../../../tranche-verticale.md). Lire également le [design-doc](../../../design-doc.md) et les [consignes applicables](../../../AGENTS.md).
 

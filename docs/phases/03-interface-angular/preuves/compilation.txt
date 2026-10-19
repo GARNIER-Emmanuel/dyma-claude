@@ -1,0 +1,16 @@
+
+> jobview@0.0.0 build C:\dev\Perso\Learn\dymacourse\dyma-claude
+> ng build
+
+> Building...
+√ Building...
+Initial chunk files | Names         |  Raw size | Estimated transfer size
+main-QUNIO6Q5.js    | main          | 218.18 kB |                59.27 kB
+styles-DDGQKJNQ.css | styles        |   3.35 kB |                 1.05 kB
+
+                    | Initial total | 221.53 kB |                60.33 kB
+
+Application bundle generation complete. [1.746 seconds] - 2026-10-19T19:38:50.063Z
+
+Output location: C:\dev\Perso\Learn\dymacourse\dyma-claude\dist\jobview
+

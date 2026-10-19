@@ -99,4 +99,14 @@ Renseigner `validation.md` avec **réussi**, **échoué** ou **non vérifié**, 
 
 Tris, filtres, recherche, modification/suppression d'entretiens, effacement global, champs d'entretien reportés, backend et déploiement restent exclus. Fermeture/réouverture complète et inspection réseau finale appartiennent à la phase 4, qui exige sa propre approbation.
 
-L'approbation attendue porte sur ce plan détaillé, l'ajout unique de dépendance et ses contrôles. Elle autorisera l'implémentation locale de phase 3. Commentaire GitHub, commit, push et clôture nécessitent toujours une autorisation explicite distincte. La gate reste **non validée**.
+L'approbation reçue couvre ce plan détaillé, l'ajout unique de dépendance et ses contrôles. Elle autorise l'implémentation locale de phase 3. Le commit documentaire préalable a été explicitement autorisé ; aucun commit d'implémentation, commentaire GitHub, push ou clôture n'est inclus.
+
+## Réalisation et ajustements constatés
+
+Implémentation locale et gate de phase 3 validées le 19 octobre 2026 sur `codex/phase-3-interface-angular`, depuis le commit documentaire `f75cb31`. Résultats détaillés dans [validation.md](validation.md) : 319 tests, compilation, types et 13 scénarios navigateur réussis.
+
+- Styles communs des formulaires et du détail centralisés dans `src/styles.css` ; les fichiers CSS propres à ces trois composants n'ont pas été nécessaires.
+- Ajout de `vitest-base.config.mts` et de l'option `runnerConfig` dans `angular.json` : désactiver le chargement automatique des fichiers d'environnement, y compris dans le projet Vitest indépendant construit par Angular. Ce réglage évite la lecture de fichiers protégés ; aucun accès à ces fichiers n'a été autorisé ou effectué.
+- Cache Corepack temporairement placé dans `.pnpm-store/corepack`, déjà ignoré par Git, via la variable de processus `COREPACK_HOME`. Node 24.18.1 et pnpm 10.15.1 vérifiés ; aucun changement de `.npmrc` ou de configuration globale.
+- Recette réellement effectuée à `http://127.0.0.1:4200/` plutôt que `http://localhost:4200/`. L'origine utilisée est conservée dans les preuves ; elles ne prouvent pas de partage de stockage entre ces adresses.
+- Phase 4, publication, déploiement et clôture de l'issue non réalisés.
