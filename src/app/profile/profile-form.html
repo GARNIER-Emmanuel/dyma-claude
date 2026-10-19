@@ -1,0 +1,23 @@
+<form [formGroup]="form" (ngSubmit)="submit()" (input)="changed.emit()" class="panel form-panel" aria-labelledby="profile-heading">
+  <div class="section-intro">
+    <span class="eyebrow">Votre point de repère</span>
+    <h2 id="profile-heading" tabindex="-1">Mon profil</h2>
+    <p>Gardez vos attentes sous la main. Elles ne modifient pas vos évaluations.</p>
+  </div>
+  <p class="form-hint">Tous les champs sont facultatifs. Vous pouvez créer un entretien sans profil.</p>
+  <div class="form-grid">
+    <div class="field full-width">
+      <label for="skills">Compétences</label>
+      <textarea id="skills" formControlName="skills" rows="3" aria-describedby="skills-hint"></textarea>
+      <small id="skills-hint">Une compétence par ligne.</small>
+    </div>
+    <div class="field"><label for="desiredJob">Métier recherché</label><input id="desiredJob" formControlName="desiredJob" /></div>
+    <div class="field"><label for="desiredContract">Contrat recherché</label><input id="desiredContract" formControlName="desiredContract" /></div>
+    <div class="field"><label for="desiredSalaryRange">Fourchette de salaire souhaitée</label><input id="desiredSalaryRange" formControlName="desiredSalaryRange" /></div>
+    <div class="field"><label for="workingHours">Horaires souhaités</label><input id="workingHours" formControlName="workingHours" /></div>
+    <div class="field"><label for="remoteWork">Télétravail souhaité</label><input id="remoteWork" formControlName="remoteWork" /></div>
+    <div class="field"><label for="location">Localisation recherchée</label><input id="location" formControlName="location" /></div>
+  </div>
+  @if (blocked()) { <p id="profile-blocked" class="form-hint">Enregistrement indisponible : consultez le message de stockage ci-dessus.</p> }
+  <div class="form-actions"><button type="submit" class="primary" [disabled]="blocked()" [attr.aria-describedby]="blocked() ? 'profile-blocked' : null">Enregistrer mon profil</button></div>
+</form>

@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-19T19:38:23.226Z",
+  "browser": "155.0.8059.85",
+  "url": "http://127.0.0.1:4200/",
+  "reducedMotion": true,
+  "contextsClosed": true,
+  "results": [
+    {
+      "name": "PC : parcours complet, clavier, zéro/absence et profil",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": "réussi",
+      "interviews": 2,
+      "zero": true,
+      "missingRating": true,
+      "keyboard": true,
+      "profileRetained": true,
+      "reloadOnly": true,
+      "pageErrors": []
+    },
+    {
+      "name": "Mobile émulé : création, détail, profil et clavier 390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "réussi",
+      "noHorizontalOverflow": true,
+      "profileSaved": true,
+      "keyboard": true,
+      "emulated": true,
+      "pageErrors": []
+    },
+    {
+      "name": "Mobile émulé : création, détail, profil et clavier 320",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "status": "réussi",
+      "noHorizontalOverflow": true,
+      "profileSaved": true,
+      "keyboard": true,
+      "emulated": true,
+      "pageErrors": []
+    },
+    {
+      "name": "Stockage : invalid-json",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "réussi",
+      "noWrite": true,
+      "draftRetained": true,
+      "retry": true,
+      "pageErrors": []
+    },
+    {
+      "name": "Stockage : invalid-format",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "réussi",
+      "noWrite": true,
+      "draftRetained": true,
+      "retry": true,
+      "pageErrors": []
+    },
+    {
+      "name": "Stockage : unknown-version",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "réussi",
+      "noWrite": true,
+      "draftRetained": true,
+      "retry": true,
+      "pageErrors": []
+    },
+    {
+      "name": "Stockage : read-denied",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "réussi",
+      "noWrite": true,
+      "draftRetained": true,
+      "retry": true,
+      "pageErrors": []
+    },
+    {
+      "name": "Écriture : QuotaExceededError",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": "réussi",
+      "draftRetained": true,
+      "noFalseSuccess": true,
+      "retrySaved": true,
+      "pageErrors": []
+    },
+    {
+      "name": "Écriture : SecurityError",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": "réussi",
+      "draftRetained": true,
+      "noFalseSuccess": true,
+      "retrySaved": true,
+      "pageErrors": []
+    },
+    {
+      "name": "Écriture : Error",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": "réussi",
+      "draftRetained": true,
+      "noFalseSuccess": true,
+      "retrySaved": true,
+      "pageErrors": []
+    },
+    {
+      "name": "Saisies affichées comme texte et textes longs",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "status": "réussi",
+      "literalText": true,
+      "noHorizontalOverflow": true,
+      "pageErrors": []
+    },
+    {
+      "name": "Parcours intégral au clavier",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "status": "réussi",
+      "keyboardOnly": true,
+      "profileAndInterviewSaved": true,
+      "listAndDetail": true,
+      "pageErrors": []
+    },
+    {
+      "name": "Échec d’écriture avec données déjà enregistrées",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": "réussi",
+      "previousDataPreserved": true,
+      "noFalseSuccess": true,
+      "pageErrors": []
+    }
+  ]
+}

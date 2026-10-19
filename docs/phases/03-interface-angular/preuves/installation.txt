@@ -1,0 +1,24 @@
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 0, reused 1, downloaded 0, added 0
+Packages: +9 -123
++++++---------------------------------------------------------------------------
+
+   ╭───────────────────────────────────────────────╮
+   │                                               │
+   │     Update available! 10.15.1 → 12.14.0.      │
+   │     Changelog: https://pnpm.io/v/12.14.0      │
+   │   To update, run: corepack use pnpm@12.14.0   │
+   │                                               │
+   ╰───────────────────────────────────────────────╯
+
+Progress: resolved 0, reused 132, downloaded 0, added 9, done
+
+╭ Warning ─────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│   Ignored build scripts: @parcel/watcher, lmdb, msgpackr-extract.            │
+│   Run "pnpm approve-builds" to pick which dependencies should be allowed     │
+│   to run scripts.                                                            │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+Done in 785ms using pnpm v10.15.1
