@@ -18,7 +18,7 @@ Ces sources restent les références. Signaler tout désaccord avant de modifier
 | 1 — Modèles et validations métier | [spec.md](01-modeles-validations-metier/spec.md) | [plan-implementation.md](01-modeles-validations-metier/plan-implementation.md) | [validation.md](01-modeles-validations-metier/validation.md) | Implémentée ; gate locale validée le 18 octobre 2026 |
 | 2 — Persistance locale protégée | [spec.md](02-persistance-locale/spec.md) | [plan-implementation.md](02-persistance-locale/plan-implementation.md) | [validation.md](02-persistance-locale/validation.md) | Implémentée ; gate locale validée le 18 octobre 2026 |
 | 3 — Parcours Angular | [spec.md](03-interface-angular/spec.md) | [plan-implementation.md](03-interface-angular/plan-implementation.md) | [validation.md](03-interface-angular/validation.md) | Implémentée ; gate locale validée le 19 octobre 2026 |
-| 4 — Recette finale | [spec.md](04-recette-finale/spec.md) | [plan-implementation.md](04-recette-finale/plan-implementation.md) | [validation.md](04-recette-finale/validation.md) | Plan approuvé le 19 octobre 2026 ; recette autorisée après commit documentaire |
+| 4 — Recette finale | [spec.md](04-recette-finale/spec.md) | [plan-implementation.md](04-recette-finale/plan-implementation.md) | [validation.md](04-recette-finale/validation.md) | Recette exécutée ; gate locale validée le 19 octobre 2026 |
 
 ## Rôle des fichiers
 
@@ -80,3 +80,11 @@ La gate locale de phase 3 est validée. L'[issue #3](https://github.com/GARNIER-
 L'[issue #5](https://github.com/GARNIER-Emmanuel/dyma-claude/issues/5) et ses commentaires ont été lus via le MCP GitHub ; aucun commentaire. Gates et preuves historiques des phases 1 à 3 relues. Le [plan détaillé](04-recette-finale/plan-implementation.md) fixe données fictives, origine stable, profils Chromium dédiés, tailles PC/mobile, panne simulée, fermeture complète/réouverture et inspection réseau. Il reste **en attente d'approbation explicite**.
 
 La [validation](04-recette-finale/validation.md) distingue la préparation documentaire et les contrôles non exécutés, et consigne le blocage de vérification de pnpm. Branche : `codex/phase-4-recette-finale`. Le commit externe `7c78db4`, apparu pendant la préparation, contient le plan et la mise à jour de clôture de phase 3 ; son suivi distant est présent. Changements préservés, sans déduire une approbation ou une recette réussie. Aucun changement applicatif, scénario de recette, commentaire GitHub, commit ou push réalisé par cet agent dans cette intervention.
+
+## Recette de phase 4 validée le 19 octobre 2026 — issue #5
+
+Après l'approbation « commit puis implemente », le commit documentaire demandé **`9ec7287`** a été créé, puis la recette exécutée. **319 tests et compilation réussis**, ainsi que **21 scénarios navigateur** (PC 1440 × 900, mobiles émulés 390 × 844 et 320 × 740). Le profil et les trois entretiens fictifs sont retrouvés après arrêt complet et nouveau lancement de chaque navigateur dédié, dans le même profil et à la même origine. Les 90 requêtes observées sont locales, GET sans corps ; les 6 connexions WebSocket n'émettent aucune frame. Aucune transmission métier observée pendant ces scénarios.
+
+La [validation finale](04-recette-finale/validation.md) et la [recette avec captures](04-recette-finale/preuves/recette-navigateur.md) détaillent environnement, preuves, erreurs du pilote corrigées et limites. Aucun changement applicatif nécessaire. Le problème de cache pnpm est résolu dans le contexte local ; le serveur préexistant est conservé. Les navigateurs dédiés sont fermés et les simulations restaurées. Téléphone physique, autre moteur, Vercel, hors connexion et synchronisation restent hors périmètre.
+
+**Gate locale de la tranche validée.** Les preuves et mises à jour finales sont réunies dans le commit de recette demandé par « commit et cloture l'issue », après `9ec7287`. La clôture de l'issue #5 est autorisée après ce commit, avec un bilan distinguant preuves locales et publication. Aucun push effectué dans cette intervention. Les sections de préparation ci-dessus décrivent leurs états historiques.

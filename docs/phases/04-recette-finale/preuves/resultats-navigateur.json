@@ -1,0 +1,3016 @@
+{
+  "started": "2026-10-19T20:15:43.420Z",
+  "runId": "2026-10-19T20-15-43-420Z",
+  "url": "http://127.0.0.1:4200/",
+  "executablePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+  "profiles": [
+    {
+      "name": "pc",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "isMobile": false,
+      "hasTouch": false,
+      "profilePath": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-pc-2026-10-19T20-15-43-420Z",
+      "scenarios": [
+        {
+          "id": "S1",
+          "started": "2026-10-19T20:15:43.827Z",
+          "saved": {
+            "version": 1,
+            "profile": null,
+            "interviews": [
+              {
+                "company": "PC Entreprise fictive JV-P4",
+                "date": "2026-10-19",
+                "position": "PC Poste fictif JV-P4",
+                "contract": "CDI fictif",
+                "conditionsRating": 0,
+                "feeling": "OK",
+                "id": "f13d35bf-82e5-4d5c-afa1-03a78ab7f361"
+              }
+            ]
+          },
+          "profileRequired": false,
+          "zeroAndMissingDistinct": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:44.121Z"
+        },
+        {
+          "id": "S2",
+          "started": "2026-10-19T20:15:44.121Z",
+          "saved": {
+            "version": 1,
+            "profile": {
+              "skills": [
+                "Angular fictif",
+                "Java fictif"
+              ],
+              "desiredJob": "PC Autre métier fictif JV-P4",
+              "desiredSalaryRange": "40–45 k€ fictifs",
+              "workingHours": "35 h fictives",
+              "remoteWork": "Trois jours fictifs",
+              "location": "Ville fictive JV-P4",
+              "desiredContract": "CDI fictif"
+            },
+            "interviews": [
+              {
+                "company": "PC Entreprise fictive JV-P4",
+                "date": "2026-10-19",
+                "position": "PC Poste fictif JV-P4",
+                "contract": "CDI fictif",
+                "conditionsRating": 0,
+                "feeling": "OK",
+                "id": "f13d35bf-82e5-4d5c-afa1-03a78ab7f361"
+              },
+              {
+                "company": "PC Entreprise fictive JV-P4",
+                "date": "2026-10-19",
+                "position": "PC Poste fictif JV-P4",
+                "contract": "CDI fictif",
+                "conditionsRating": 0,
+                "feeling": "Pas top",
+                "id": "2fc638a7-2d7d-42eb-beb9-65e650654d48"
+              }
+            ]
+          },
+          "independentProfile": true,
+          "independentFeeling": true,
+          "distinctIds": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:44.499Z"
+        },
+        {
+          "id": "S3",
+          "started": "2026-10-19T20:15:44.499Z",
+          "unchangedStorage": true,
+          "cases": [
+            "4 champs requis",
+            "31/02/2026",
+            "conditions -1/11/2.5",
+            "compatibilité -1/11/2.5"
+          ],
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:44.907Z"
+        },
+        {
+          "id": "S4",
+          "started": "2026-10-19T20:15:44.907Z",
+          "failedAttempts": 2,
+          "previousDataPreserved": true,
+          "draftsRetained": true,
+          "noFalseSuccess": true,
+          "retryWithoutDuplicate": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:45.385Z"
+        },
+        {
+          "id": "S5",
+          "started": "2026-10-19T20:15:45.385Z",
+          "profileFieldsVerified": 7,
+          "interviewsVerified": 3,
+          "exactRawEquality": true,
+          "fullBrowserDisconnected": true,
+          "newBrowserLaunched": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:46.501Z"
+        },
+        {
+          "id": "S6",
+          "started": "2026-10-19T20:15:46.501Z",
+          "noHorizontalOverflow": true,
+          "keyboardOnlyJourney": true,
+          "mobileEmulated": false,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:46.867Z"
+        },
+        {
+          "id": "S7",
+          "started": "2026-10-19T20:15:46.867Z",
+          "origins": [
+            "http://127.0.0.1:4200"
+          ],
+          "requests": 30,
+          "websocketConnections": 2,
+          "sentFrames": 0,
+          "allRequestsGetWithoutBody": true,
+          "businessMarkerMatches": [],
+          "scope": "Pages et transports observés pendant ces scénarios uniquement ; HTTP(S) et WebSocket.",
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:46.867Z"
+        }
+      ],
+      "pageErrors": [],
+      "screenshots": [
+        "pc-vide.png",
+        "pc-formulaire.png",
+        "pc-detail.png",
+        "pc-liste.png",
+        "pc-profil.png",
+        "pc-invalide-requis.png",
+        "pc-invalide-note.png",
+        "pc-echec-entretien.png",
+        "pc-echec-profil.png",
+        "pc-avant-reouverture-profil.png",
+        "pc-avant-reouverture-liste.png",
+        "pc-apres-reouverture-liste.png",
+        "pc-apres-reouverture-profil.png",
+        "pc-apres-reouverture-detail.png",
+        "pc-clavier.png"
+      ],
+      "layout": [
+        {
+          "screen": "vide",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "formulaire",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "detail",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "liste",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "profil",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "invalide-requis",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "invalide-note",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "echec-entretien",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "echec-profil",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "avant-reouverture-profil",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "avant-reouverture-liste",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "apres-reouverture-liste",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "apres-reouverture-profil",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "apres-reouverture-detail",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "liste finale",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "profil final",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        },
+        {
+          "screen": "clavier",
+          "innerWidth": 1440,
+          "width": 1440,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          }
+        }
+      ],
+      "browser": "155.0.8059.85",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "finalStoredData": {
+        "version": 1,
+        "profile": {
+          "skills": [
+            "Angular fictif",
+            "Java fictif"
+          ],
+          "desiredJob": "PC Autre métier fictif JV-P4",
+          "desiredSalaryRange": "40–45 k€ fictifs",
+          "workingHours": "35 h fictives",
+          "remoteWork": "Trois jours fictifs",
+          "location": "Ville fictive JV-P4",
+          "desiredContract": "CDI fictif"
+        },
+        "interviews": [
+          {
+            "company": "PC Entreprise fictive JV-P4",
+            "date": "2026-10-19",
+            "position": "PC Poste fictif JV-P4",
+            "contract": "CDI fictif",
+            "conditionsRating": 0,
+            "feeling": "OK",
+            "id": "f13d35bf-82e5-4d5c-afa1-03a78ab7f361"
+          },
+          {
+            "company": "PC Entreprise fictive JV-P4",
+            "date": "2026-10-19",
+            "position": "PC Poste fictif JV-P4",
+            "contract": "CDI fictif",
+            "conditionsRating": 0,
+            "feeling": "Pas top",
+            "id": "2fc638a7-2d7d-42eb-beb9-65e650654d48"
+          },
+          {
+            "company": "PC Sauvegarde fictive refusée JV-P4",
+            "date": "2026-10-19",
+            "position": "PC Poste fictif JV-P4",
+            "contract": "CDI fictif",
+            "conditionsRating": 0,
+            "id": "29cf3160-0d4b-4e43-a5a6-76c5bc3d9328"
+          },
+          {
+            "company": "PC Clavier fictif JV-P4",
+            "date": "2026-10-19",
+            "position": "Poste clavier fictif JV-P4",
+            "contract": "CDI fictif",
+            "conditionsRating": 0,
+            "id": "8341bde3-3ec0-4781-b1a1-ad000296ac76"
+          }
+        ]
+      },
+      "status": "réussi",
+      "dedicatedBrowserClosed": true,
+      "finished": "2026-10-19T20:15:46.995Z"
+    },
+    {
+      "name": "mobile-390",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "isMobile": true,
+      "hasTouch": true,
+      "profilePath": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-mobile-390-2026-10-19T20-15-43-420Z",
+      "scenarios": [
+        {
+          "id": "S1",
+          "started": "2026-10-19T20:15:47.477Z",
+          "saved": {
+            "version": 1,
+            "profile": null,
+            "interviews": [
+              {
+                "company": "M390 Entreprise fictive JV-P4",
+                "date": "2026-10-19",
+                "position": "M390 Poste fictif JV-P4",
+                "contract": "CDI fictif",
+                "conditionsRating": 0,
+                "feeling": "OK",
+                "id": "3ebdaa06-5a43-4ec6-ae30-423ca5d9040f"
+              }
+            ]
+          },
+          "profileRequired": false,
+          "zeroAndMissingDistinct": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:47.744Z"
+        },
+        {
+          "id": "S2",
+          "started": "2026-10-19T20:15:47.744Z",
+          "saved": {
+            "version": 1,
+            "profile": {
+              "skills": [
+                "Angular fictif",
+                "Java fictif"
+              ],
+              "desiredJob": "M390 Autre métier fictif JV-P4",
+              "desiredSalaryRange": "40–45 k€ fictifs",
+              "workingHours": "35 h fictives",
+              "remoteWork": "Trois jours fictifs",
+              "location": "Ville fictive JV-P4",
+              "desiredContract": "CDI fictif"
+            },
+            "interviews": [
+              {
+                "company": "M390 Entreprise fictive JV-P4",
+                "date": "2026-10-19",
+                "position": "M390 Poste fictif JV-P4",
+                "contract": "CDI fictif",
+                "conditionsRating": 0,
+                "feeling": "OK",
+                "id": "3ebdaa06-5a43-4ec6-ae30-423ca5d9040f"
+              },
+              {
+                "company": "M390 Entreprise fictive JV-P4",
+                "date": "2026-10-19",
+                "position": "M390 Poste fictif JV-P4",
+                "contract": "CDI fictif",
+                "conditionsRating": 0,
+                "feeling": "Pas top",
+                "id": "83f08a37-e141-4422-9336-2c6145ffb442"
+              }
+            ]
+          },
+          "independentProfile": true,
+          "independentFeeling": true,
+          "distinctIds": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:48.135Z"
+        },
+        {
+          "id": "S3",
+          "started": "2026-10-19T20:15:48.135Z",
+          "unchangedStorage": true,
+          "cases": [
+            "4 champs requis",
+            "31/02/2026",
+            "conditions -1/11/2.5",
+            "compatibilité -1/11/2.5"
+          ],
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:48.475Z"
+        },
+        {
+          "id": "S4",
+          "started": "2026-10-19T20:15:48.475Z",
+          "failedAttempts": 2,
+          "previousDataPreserved": true,
+          "draftsRetained": true,
+          "noFalseSuccess": true,
+          "retryWithoutDuplicate": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:48.897Z"
+        },
+        {
+          "id": "S5",
+          "started": "2026-10-19T20:15:48.897Z",
+          "profileFieldsVerified": 7,
+          "interviewsVerified": 3,
+          "exactRawEquality": true,
+          "fullBrowserDisconnected": true,
+          "newBrowserLaunched": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:49.950Z"
+        },
+        {
+          "id": "S6",
+          "started": "2026-10-19T20:15:49.950Z",
+          "noHorizontalOverflow": true,
+          "keyboardOnlyJourney": false,
+          "mobileEmulated": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:49.960Z"
+        },
+        {
+          "id": "S7",
+          "started": "2026-10-19T20:15:49.960Z",
+          "origins": [
+            "http://127.0.0.1:4200"
+          ],
+          "requests": 30,
+          "websocketConnections": 2,
+          "sentFrames": 0,
+          "allRequestsGetWithoutBody": true,
+          "businessMarkerMatches": [],
+          "scope": "Pages et transports observés pendant ces scénarios uniquement ; HTTP(S) et WebSocket.",
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:49.960Z"
+        }
+      ],
+      "pageErrors": [],
+      "screenshots": [
+        "mobile-390-vide.png",
+        "mobile-390-formulaire.png",
+        "mobile-390-detail.png",
+        "mobile-390-liste.png",
+        "mobile-390-profil.png",
+        "mobile-390-invalide-requis.png",
+        "mobile-390-invalide-note.png",
+        "mobile-390-echec-entretien.png",
+        "mobile-390-echec-profil.png",
+        "mobile-390-avant-reouverture-profil.png",
+        "mobile-390-avant-reouverture-liste.png",
+        "mobile-390-apres-reouverture-liste.png",
+        "mobile-390-apres-reouverture-profil.png",
+        "mobile-390-apres-reouverture-detail.png"
+      ],
+      "layout": [
+        {
+          "screen": "vide",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "formulaire",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "detail",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "liste",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "profil",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "invalide-requis",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "invalide-note",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "echec-entretien",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "echec-profil",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "avant-reouverture-profil",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "avant-reouverture-liste",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "apres-reouverture-liste",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "apres-reouverture-profil",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "apres-reouverture-detail",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "liste finale",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        },
+        {
+          "screen": "profil final",
+          "innerWidth": 390,
+          "width": 390,
+          "viewport": {
+            "width": 390,
+            "height": 844
+          }
+        }
+      ],
+      "browser": "155.0.8059.85",
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36",
+      "finalStoredData": {
+        "version": 1,
+        "profile": {
+          "skills": [
+            "Angular fictif",
+            "Java fictif"
+          ],
+          "desiredJob": "M390 Autre métier fictif JV-P4",
+          "desiredSalaryRange": "40–45 k€ fictifs",
+          "workingHours": "35 h fictives",
+          "remoteWork": "Trois jours fictifs",
+          "location": "Ville fictive JV-P4",
+          "desiredContract": "CDI fictif"
+        },
+        "interviews": [
+          {
+            "company": "M390 Entreprise fictive JV-P4",
+            "date": "2026-10-19",
+            "position": "M390 Poste fictif JV-P4",
+            "contract": "CDI fictif",
+            "conditionsRating": 0,
+            "feeling": "OK",
+            "id": "3ebdaa06-5a43-4ec6-ae30-423ca5d9040f"
+          },
+          {
+            "company": "M390 Entreprise fictive JV-P4",
+            "date": "2026-10-19",
+            "position": "M390 Poste fictif JV-P4",
+            "contract": "CDI fictif",
+            "conditionsRating": 0,
+            "feeling": "Pas top",
+            "id": "83f08a37-e141-4422-9336-2c6145ffb442"
+          },
+          {
+            "company": "M390 Sauvegarde fictive refusée JV-P4",
+            "date": "2026-10-19",
+            "position": "M390 Poste fictif JV-P4",
+            "contract": "CDI fictif",
+            "conditionsRating": 0,
+            "id": "51ee6ed6-648e-444f-bc92-be258bb095d4"
+          }
+        ]
+      },
+      "status": "réussi",
+      "dedicatedBrowserClosed": true,
+      "finished": "2026-10-19T20:15:50.063Z"
+    },
+    {
+      "name": "mobile-320",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "isMobile": true,
+      "hasTouch": true,
+      "profilePath": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-mobile-320-2026-10-19T20-15-43-420Z",
+      "scenarios": [
+        {
+          "id": "S1",
+          "started": "2026-10-19T20:15:50.576Z",
+          "saved": {
+            "version": 1,
+            "profile": null,
+            "interviews": [
+              {
+                "company": "M320 Entreprise fictive JV-P4",
+                "date": "2026-10-19",
+                "position": "M320 Poste fictif JV-P4",
+                "contract": "CDI fictif",
+                "conditionsRating": 0,
+                "feeling": "OK",
+                "id": "f02305a5-69e3-429c-9b68-6dceb48a4de7"
+              }
+            ]
+          },
+          "profileRequired": false,
+          "zeroAndMissingDistinct": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:50.841Z"
+        },
+        {
+          "id": "S2",
+          "started": "2026-10-19T20:15:50.841Z",
+          "saved": {
+            "version": 1,
+            "profile": {
+              "skills": [
+                "Angular fictif",
+                "Java fictif"
+              ],
+              "desiredJob": "M320 Autre métier fictif JV-P4",
+              "desiredSalaryRange": "40–45 k€ fictifs",
+              "workingHours": "35 h fictives",
+              "remoteWork": "Trois jours fictifs",
+              "location": "Ville fictive JV-P4",
+              "desiredContract": "CDI fictif"
+            },
+            "interviews": [
+              {
+                "company": "M320 Entreprise fictive JV-P4",
+                "date": "2026-10-19",
+                "position": "M320 Poste fictif JV-P4",
+                "contract": "CDI fictif",
+                "conditionsRating": 0,
+                "feeling": "OK",
+                "id": "f02305a5-69e3-429c-9b68-6dceb48a4de7"
+              },
+              {
+                "company": "M320 Entreprise fictive JV-P4",
+                "date": "2026-10-19",
+                "position": "M320 Poste fictif JV-P4",
+                "contract": "CDI fictif",
+                "conditionsRating": 0,
+                "feeling": "Pas top",
+                "id": "e605d0a3-44cb-4e26-ad89-932e0a4d2410"
+              }
+            ]
+          },
+          "independentProfile": true,
+          "independentFeeling": true,
+          "distinctIds": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:51.175Z"
+        },
+        {
+          "id": "S3",
+          "started": "2026-10-19T20:15:51.175Z",
+          "unchangedStorage": true,
+          "cases": [
+            "4 champs requis",
+            "31/02/2026",
+            "conditions -1/11/2.5",
+            "compatibilité -1/11/2.5"
+          ],
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:51.609Z"
+        },
+        {
+          "id": "S4",
+          "started": "2026-10-19T20:15:51.609Z",
+          "failedAttempts": 2,
+          "previousDataPreserved": true,
+          "draftsRetained": true,
+          "noFalseSuccess": true,
+          "retryWithoutDuplicate": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:52.061Z"
+        },
+        {
+          "id": "S5",
+          "started": "2026-10-19T20:15:52.061Z",
+          "profileFieldsVerified": 7,
+          "interviewsVerified": 3,
+          "exactRawEquality": true,
+          "fullBrowserDisconnected": true,
+          "newBrowserLaunched": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:53.180Z"
+        },
+        {
+          "id": "S6",
+          "started": "2026-10-19T20:15:53.180Z",
+          "noHorizontalOverflow": true,
+          "keyboardOnlyJourney": false,
+          "mobileEmulated": true,
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:53.188Z"
+        },
+        {
+          "id": "S7",
+          "started": "2026-10-19T20:15:53.188Z",
+          "origins": [
+            "http://127.0.0.1:4200"
+          ],
+          "requests": 30,
+          "websocketConnections": 2,
+          "sentFrames": 0,
+          "allRequestsGetWithoutBody": true,
+          "businessMarkerMatches": [],
+          "scope": "Pages et transports observés pendant ces scénarios uniquement ; HTTP(S) et WebSocket.",
+          "status": "réussi",
+          "finished": "2026-10-19T20:15:53.188Z"
+        }
+      ],
+      "pageErrors": [],
+      "screenshots": [
+        "mobile-320-vide.png",
+        "mobile-320-formulaire.png",
+        "mobile-320-detail.png",
+        "mobile-320-liste.png",
+        "mobile-320-profil.png",
+        "mobile-320-invalide-requis.png",
+        "mobile-320-invalide-note.png",
+        "mobile-320-echec-entretien.png",
+        "mobile-320-echec-profil.png",
+        "mobile-320-avant-reouverture-profil.png",
+        "mobile-320-avant-reouverture-liste.png",
+        "mobile-320-apres-reouverture-liste.png",
+        "mobile-320-apres-reouverture-profil.png",
+        "mobile-320-apres-reouverture-detail.png"
+      ],
+      "layout": [
+        {
+          "screen": "vide",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "formulaire",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "detail",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "liste",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "profil",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "invalide-requis",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "invalide-note",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "echec-entretien",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "echec-profil",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "avant-reouverture-profil",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "avant-reouverture-liste",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "apres-reouverture-liste",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "apres-reouverture-profil",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "apres-reouverture-detail",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "liste finale",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        },
+        {
+          "screen": "profil final",
+          "innerWidth": 320,
+          "width": 320,
+          "viewport": {
+            "width": 320,
+            "height": 740
+          }
+        }
+      ],
+      "browser": "155.0.8059.85",
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36",
+      "finalStoredData": {
+        "version": 1,
+        "profile": {
+          "skills": [
+            "Angular fictif",
+            "Java fictif"
+          ],
+          "desiredJob": "M320 Autre métier fictif JV-P4",
+          "desiredSalaryRange": "40–45 k€ fictifs",
+          "workingHours": "35 h fictives",
+          "remoteWork": "Trois jours fictifs",
+          "location": "Ville fictive JV-P4",
+          "desiredContract": "CDI fictif"
+        },
+        "interviews": [
+          {
+            "company": "M320 Entreprise fictive JV-P4",
+            "date": "2026-10-19",
+            "position": "M320 Poste fictif JV-P4",
+            "contract": "CDI fictif",
+            "conditionsRating": 0,
+            "feeling": "OK",
+            "id": "f02305a5-69e3-429c-9b68-6dceb48a4de7"
+          },
+          {
+            "company": "M320 Entreprise fictive JV-P4",
+            "date": "2026-10-19",
+            "position": "M320 Poste fictif JV-P4",
+            "contract": "CDI fictif",
+            "conditionsRating": 0,
+            "feeling": "Pas top",
+            "id": "e605d0a3-44cb-4e26-ad89-932e0a4d2410"
+          },
+          {
+            "company": "M320 Sauvegarde fictive refusée JV-P4",
+            "date": "2026-10-19",
+            "position": "M320 Poste fictif JV-P4",
+            "contract": "CDI fictif",
+            "conditionsRating": 0,
+            "id": "6212e8c1-9285-454a-8c94-8bddd6a50258"
+          }
+        ]
+      },
+      "status": "réussi",
+      "dedicatedBrowserClosed": true,
+      "finished": "2026-10-19T20:15:53.267Z"
+    }
+  ],
+  "network": [
+    {
+      "profile": "pc",
+      "requests": [
+        {
+          "time": "2026-10-19T20:15:43.687Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/",
+          "method": "GET",
+          "type": "document",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.698Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@vite/client",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.698Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/styles.css",
+          "method": "GET",
+          "type": "stylesheet",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.698Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/main.js",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.700Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/node_modules/vite/dist/client/env.mjs",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.702Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_platform-browser.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.702Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_core.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.702Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_forms.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.711Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/core-0dSdJS1x.js?v=866695a9",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.713Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/common-DN6-D_-y.js?v=866695a9",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.795Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Fprofile%2Fprofile-form.ts%40ProfileForm&t=1792440943772",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.795Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-form.ts%40InterviewForm&t=1792440943773",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.795Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-list.ts%40InterviewList&t=1792440943773",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.795Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-detail.ts%40InterviewDetail&t=1792440943773",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:43.795Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Fapp.ts%40App&t=1792440943773",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:45.920Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/",
+          "method": "GET",
+          "type": "document",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:45.936Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@vite/client",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:45.936Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/styles.css",
+          "method": "GET",
+          "type": "stylesheet",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:45.936Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/main.js",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:45.937Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/node_modules/vite/dist/client/env.mjs",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:45.937Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_platform-browser.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:45.937Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_core.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:45.937Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_forms.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:45.942Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/core-0dSdJS1x.js?v=866695a9",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:45.944Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/common-DN6-D_-y.js?v=866695a9",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:46.001Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Fprofile%2Fprofile-form.ts%40ProfileForm&t=1792440945977",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:46.001Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-form.ts%40InterviewForm&t=1792440945978",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:46.001Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-list.ts%40InterviewList&t=1792440945978",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:46.001Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-detail.ts%40InterviewDetail&t=1792440945978",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:46.001Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Fapp.ts%40App&t=1792440945978",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        }
+      ],
+      "websockets": [
+        {
+          "url": "ws://127.0.0.1:4200/?token=[redacted]",
+          "launch": 1,
+          "opened": "2026-10-19T20:15:43.708Z",
+          "sent": [],
+          "received": [
+            {
+              "time": "2026-10-19T20:15:43.714Z",
+              "phase": "démarrage",
+              "payload": "{\"type\":\"connected\"}"
+            }
+          ],
+          "errors": []
+        },
+        {
+          "url": "ws://127.0.0.1:4200/?token=[redacted]",
+          "launch": 2,
+          "opened": "2026-10-19T20:15:45.942Z",
+          "sent": [],
+          "received": [
+            {
+              "time": "2026-10-19T20:15:45.943Z",
+              "phase": "S5 nouveau lancement",
+              "payload": "{\"type\":\"connected\"}"
+            }
+          ],
+          "errors": []
+        }
+      ],
+      "markers": [
+        {
+          "time": "2026-10-19T20:15:43.827Z",
+          "launch": 1,
+          "phase": "S1"
+        },
+        {
+          "time": "2026-10-19T20:15:43.887Z",
+          "launch": 1,
+          "phase": "saisie entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:43.961Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:44.030Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:44.121Z",
+          "launch": 1,
+          "phase": "S2"
+        },
+        {
+          "time": "2026-10-19T20:15:44.121Z",
+          "launch": 1,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:44.134Z",
+          "launch": 1,
+          "phase": "saisie profil"
+        },
+        {
+          "time": "2026-10-19T20:15:44.175Z",
+          "launch": 1,
+          "phase": "sauvegarde profil"
+        },
+        {
+          "time": "2026-10-19T20:15:44.224Z",
+          "launch": 1,
+          "phase": "saisie profil"
+        },
+        {
+          "time": "2026-10-19T20:15:44.245Z",
+          "launch": 1,
+          "phase": "sauvegarde profil"
+        },
+        {
+          "time": "2026-10-19T20:15:44.342Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:44.401Z",
+          "launch": 1,
+          "phase": "saisie entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:44.447Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:44.499Z",
+          "launch": 1,
+          "phase": "S3"
+        },
+        {
+          "time": "2026-10-19T20:15:44.499Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:44.570Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:44.665Z",
+          "launch": 1,
+          "phase": "saisie entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:44.687Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:44.715Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:44.769Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:44.789Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:44.809Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:44.830Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:44.848Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:44.907Z",
+          "launch": 1,
+          "phase": "S4"
+        },
+        {
+          "time": "2026-10-19T20:15:44.908Z",
+          "launch": 1,
+          "phase": "saisie entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:44.924Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:45.006Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:45.058Z",
+          "launch": 1,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:45.091Z",
+          "launch": 1,
+          "phase": "sauvegarde profil"
+        },
+        {
+          "time": "2026-10-19T20:15:45.174Z",
+          "launch": 1,
+          "phase": "saisie profil"
+        },
+        {
+          "time": "2026-10-19T20:15:45.195Z",
+          "launch": 1,
+          "phase": "sauvegarde profil"
+        },
+        {
+          "time": "2026-10-19T20:15:45.243Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:45.305Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:45.385Z",
+          "launch": 1,
+          "phase": "S5"
+        },
+        {
+          "time": "2026-10-19T20:15:45.386Z",
+          "launch": 1,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:45.438Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:45.559Z",
+          "launch": 1,
+          "phase": "S5 fermeture complète"
+        },
+        {
+          "time": "2026-10-19T20:15:45.653Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement"
+        },
+        {
+          "time": "2026-10-19T20:15:46.097Z",
+          "launch": 2,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:46.172Z",
+          "launch": 2,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:46.279Z",
+          "launch": 2,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:46.377Z",
+          "launch": 2,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:46.456Z",
+          "launch": 2,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:46.501Z",
+          "launch": 2,
+          "phase": "S6"
+        },
+        {
+          "time": "2026-10-19T20:15:46.502Z",
+          "launch": 2,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:46.867Z",
+          "launch": 2,
+          "phase": "S7"
+        }
+      ],
+      "analysis": {
+        "origins": [
+          "http://127.0.0.1:4200"
+        ],
+        "requests": 30,
+        "websocketConnections": 2,
+        "sentFrames": 0,
+        "allRequestsGetWithoutBody": true,
+        "businessMarkerMatches": [],
+        "scope": "Pages et transports observés pendant ces scénarios uniquement ; HTTP(S) et WebSocket."
+      },
+      "redaction": "Seule la valeur du jeton de connexion Vite est masquée dans les URL sauvegardées ; analyse effectuée avant masquage."
+    },
+    {
+      "profile": "mobile-390",
+      "requests": [
+        {
+          "time": "2026-10-19T20:15:47.336Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/",
+          "method": "GET",
+          "type": "document",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.349Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@vite/client",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.349Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/styles.css",
+          "method": "GET",
+          "type": "stylesheet",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.349Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/main.js",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.362Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/node_modules/vite/dist/client/env.mjs",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.362Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_platform-browser.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.362Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_core.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.362Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_forms.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.384Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/core-0dSdJS1x.js?v=866695a9",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.384Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/common-DN6-D_-y.js?v=866695a9",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.445Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Fprofile%2Fprofile-form.ts%40ProfileForm&t=1792440947423",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.445Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-form.ts%40InterviewForm&t=1792440947424",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.445Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-list.ts%40InterviewList&t=1792440947425",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.445Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-detail.ts%40InterviewDetail&t=1792440947425",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:47.445Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Fapp.ts%40App&t=1792440947425",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.382Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/",
+          "method": "GET",
+          "type": "document",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.392Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@vite/client",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.392Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/styles.css",
+          "method": "GET",
+          "type": "stylesheet",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.392Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/main.js",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.397Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/node_modules/vite/dist/client/env.mjs",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.397Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_platform-browser.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.397Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_core.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.397Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_forms.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.402Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/core-0dSdJS1x.js?v=866695a9",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.404Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/common-DN6-D_-y.js?v=866695a9",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.463Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Fprofile%2Fprofile-form.ts%40ProfileForm&t=1792440949437",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.463Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-form.ts%40InterviewForm&t=1792440949438",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.463Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-list.ts%40InterviewList&t=1792440949439",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.463Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-detail.ts%40InterviewDetail&t=1792440949439",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:49.463Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Fapp.ts%40App&t=1792440949439",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        }
+      ],
+      "websockets": [
+        {
+          "url": "ws://127.0.0.1:4200/?token=[redacted]",
+          "launch": 1,
+          "opened": "2026-10-19T20:15:47.386Z",
+          "sent": [],
+          "received": [
+            {
+              "time": "2026-10-19T20:15:47.391Z",
+              "phase": "démarrage",
+              "payload": "{\"type\":\"connected\"}"
+            }
+          ],
+          "errors": []
+        },
+        {
+          "url": "ws://127.0.0.1:4200/?token=[redacted]",
+          "launch": 2,
+          "opened": "2026-10-19T20:15:49.402Z",
+          "sent": [],
+          "received": [
+            {
+              "time": "2026-10-19T20:15:49.403Z",
+              "phase": "S5 nouveau lancement",
+              "payload": "{\"type\":\"connected\"}"
+            }
+          ],
+          "errors": []
+        }
+      ],
+      "markers": [
+        {
+          "time": "2026-10-19T20:15:47.477Z",
+          "launch": 1,
+          "phase": "S1"
+        },
+        {
+          "time": "2026-10-19T20:15:47.511Z",
+          "launch": 1,
+          "phase": "saisie entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:47.578Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:47.652Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:47.744Z",
+          "launch": 1,
+          "phase": "S2"
+        },
+        {
+          "time": "2026-10-19T20:15:47.744Z",
+          "launch": 1,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:47.758Z",
+          "launch": 1,
+          "phase": "saisie profil"
+        },
+        {
+          "time": "2026-10-19T20:15:47.803Z",
+          "launch": 1,
+          "phase": "sauvegarde profil"
+        },
+        {
+          "time": "2026-10-19T20:15:47.861Z",
+          "launch": 1,
+          "phase": "saisie profil"
+        },
+        {
+          "time": "2026-10-19T20:15:47.884Z",
+          "launch": 1,
+          "phase": "sauvegarde profil"
+        },
+        {
+          "time": "2026-10-19T20:15:47.971Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:48.038Z",
+          "launch": 1,
+          "phase": "saisie entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.083Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.135Z",
+          "launch": 1,
+          "phase": "S3"
+        },
+        {
+          "time": "2026-10-19T20:15:48.135Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:48.189Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.265Z",
+          "launch": 1,
+          "phase": "saisie entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.285Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.307Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.358Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.376Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.395Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.412Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.430Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.475Z",
+          "launch": 1,
+          "phase": "S4"
+        },
+        {
+          "time": "2026-10-19T20:15:48.476Z",
+          "launch": 1,
+          "phase": "saisie entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.492Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.573Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:48.634Z",
+          "launch": 1,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:48.666Z",
+          "launch": 1,
+          "phase": "sauvegarde profil"
+        },
+        {
+          "time": "2026-10-19T20:15:48.743Z",
+          "launch": 1,
+          "phase": "saisie profil"
+        },
+        {
+          "time": "2026-10-19T20:15:48.762Z",
+          "launch": 1,
+          "phase": "sauvegarde profil"
+        },
+        {
+          "time": "2026-10-19T20:15:48.804Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:48.843Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:48.897Z",
+          "launch": 1,
+          "phase": "S5"
+        },
+        {
+          "time": "2026-10-19T20:15:48.897Z",
+          "launch": 1,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:48.941Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:49.039Z",
+          "launch": 1,
+          "phase": "S5 fermeture complète"
+        },
+        {
+          "time": "2026-10-19T20:15:49.124Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement"
+        },
+        {
+          "time": "2026-10-19T20:15:49.548Z",
+          "launch": 2,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:49.595Z",
+          "launch": 2,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:49.693Z",
+          "launch": 2,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:49.798Z",
+          "launch": 2,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:49.892Z",
+          "launch": 2,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:49.950Z",
+          "launch": 2,
+          "phase": "S6"
+        },
+        {
+          "time": "2026-10-19T20:15:49.950Z",
+          "launch": 2,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:49.960Z",
+          "launch": 2,
+          "phase": "S7"
+        }
+      ],
+      "analysis": {
+        "origins": [
+          "http://127.0.0.1:4200"
+        ],
+        "requests": 30,
+        "websocketConnections": 2,
+        "sentFrames": 0,
+        "allRequestsGetWithoutBody": true,
+        "businessMarkerMatches": [],
+        "scope": "Pages et transports observés pendant ces scénarios uniquement ; HTTP(S) et WebSocket."
+      },
+      "redaction": "Seule la valeur du jeton de connexion Vite est masquée dans les URL sauvegardées ; analyse effectuée avant masquage."
+    },
+    {
+      "profile": "mobile-320",
+      "requests": [
+        {
+          "time": "2026-10-19T20:15:50.430Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/",
+          "method": "GET",
+          "type": "document",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.459Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@vite/client",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.459Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/styles.css",
+          "method": "GET",
+          "type": "stylesheet",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.459Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/main.js",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.460Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/node_modules/vite/dist/client/env.mjs",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.460Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_platform-browser.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.460Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_core.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.460Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_forms.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.463Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/core-0dSdJS1x.js?v=866695a9",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.464Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/common-DN6-D_-y.js?v=866695a9",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.540Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Fprofile%2Fprofile-form.ts%40ProfileForm&t=1792440950513",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.540Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-form.ts%40InterviewForm&t=1792440950515",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.540Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-list.ts%40InterviewList&t=1792440950515",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.540Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-detail.ts%40InterviewDetail&t=1792440950515",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:50.540Z",
+          "launch": 1,
+          "phase": "démarrage",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Fapp.ts%40App&t=1792440950515",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.595Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/",
+          "method": "GET",
+          "type": "document",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.610Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@vite/client",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.611Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/styles.css",
+          "method": "GET",
+          "type": "stylesheet",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.611Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/main.js",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.613Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/node_modules/vite/dist/client/env.mjs",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.613Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_platform-browser.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.613Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_core.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.613Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/@angular_forms.js?v=a795e922",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.619Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/core-0dSdJS1x.js?v=866695a9",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.621Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@fs/C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/cache/22.2.3/jobview/vite/deps/common-DN6-D_-y.js?v=866695a9",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.686Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Fprofile%2Fprofile-form.ts%40ProfileForm&t=1792440952660",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.686Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-form.ts%40InterviewForm&t=1792440952661",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.686Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-list.ts%40InterviewList&t=1792440952661",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.686Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Finterviews%2Finterview-detail.ts%40InterviewDetail&t=1792440952661",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        },
+        {
+          "time": "2026-10-19T20:15:52.686Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement",
+          "url": "http://127.0.0.1:4200/@ng/component?c=src%2Fapp%2Fapp.ts%40App&t=1792440952662",
+          "method": "GET",
+          "type": "script",
+          "body": null,
+          "status": 200,
+          "failure": null
+        }
+      ],
+      "websockets": [
+        {
+          "url": "ws://127.0.0.1:4200/?token=[redacted]",
+          "launch": 1,
+          "opened": "2026-10-19T20:15:50.467Z",
+          "sent": [],
+          "received": [
+            {
+              "time": "2026-10-19T20:15:50.479Z",
+              "phase": "démarrage",
+              "payload": "{\"type\":\"connected\"}"
+            }
+          ],
+          "errors": []
+        },
+        {
+          "url": "ws://127.0.0.1:4200/?token=[redacted]",
+          "launch": 2,
+          "opened": "2026-10-19T20:15:52.619Z",
+          "sent": [],
+          "received": [
+            {
+              "time": "2026-10-19T20:15:52.621Z",
+              "phase": "S5 nouveau lancement",
+              "payload": "{\"type\":\"connected\"}"
+            }
+          ],
+          "errors": []
+        }
+      ],
+      "markers": [
+        {
+          "time": "2026-10-19T20:15:50.576Z",
+          "launch": 1,
+          "phase": "S1"
+        },
+        {
+          "time": "2026-10-19T20:15:50.614Z",
+          "launch": 1,
+          "phase": "saisie entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:50.687Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:50.745Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:50.841Z",
+          "launch": 1,
+          "phase": "S2"
+        },
+        {
+          "time": "2026-10-19T20:15:50.841Z",
+          "launch": 1,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:50.855Z",
+          "launch": 1,
+          "phase": "saisie profil"
+        },
+        {
+          "time": "2026-10-19T20:15:50.899Z",
+          "launch": 1,
+          "phase": "sauvegarde profil"
+        },
+        {
+          "time": "2026-10-19T20:15:50.946Z",
+          "launch": 1,
+          "phase": "saisie profil"
+        },
+        {
+          "time": "2026-10-19T20:15:50.966Z",
+          "launch": 1,
+          "phase": "sauvegarde profil"
+        },
+        {
+          "time": "2026-10-19T20:15:51.050Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:51.111Z",
+          "launch": 1,
+          "phase": "saisie entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:51.134Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:51.175Z",
+          "launch": 1,
+          "phase": "S3"
+        },
+        {
+          "time": "2026-10-19T20:15:51.175Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:51.233Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:51.328Z",
+          "launch": 1,
+          "phase": "saisie entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:51.376Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:51.417Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:51.451Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:51.482Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:51.508Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:51.529Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:51.557Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:51.609Z",
+          "launch": 1,
+          "phase": "S4"
+        },
+        {
+          "time": "2026-10-19T20:15:51.609Z",
+          "launch": 1,
+          "phase": "saisie entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:51.641Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:51.698Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:51.766Z",
+          "launch": 1,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:51.802Z",
+          "launch": 1,
+          "phase": "sauvegarde profil"
+        },
+        {
+          "time": "2026-10-19T20:15:51.882Z",
+          "launch": 1,
+          "phase": "saisie profil"
+        },
+        {
+          "time": "2026-10-19T20:15:51.904Z",
+          "launch": 1,
+          "phase": "sauvegarde profil"
+        },
+        {
+          "time": "2026-10-19T20:15:51.952Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:51.995Z",
+          "launch": 1,
+          "phase": "sauvegarde entretien"
+        },
+        {
+          "time": "2026-10-19T20:15:52.061Z",
+          "launch": 1,
+          "phase": "S5"
+        },
+        {
+          "time": "2026-10-19T20:15:52.062Z",
+          "launch": 1,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:52.111Z",
+          "launch": 1,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:52.215Z",
+          "launch": 1,
+          "phase": "S5 fermeture complète"
+        },
+        {
+          "time": "2026-10-19T20:15:52.300Z",
+          "launch": 2,
+          "phase": "S5 nouveau lancement"
+        },
+        {
+          "time": "2026-10-19T20:15:52.758Z",
+          "launch": 2,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:52.814Z",
+          "launch": 2,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:52.952Z",
+          "launch": 2,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:53.058Z",
+          "launch": 2,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:53.134Z",
+          "launch": 2,
+          "phase": "consultation liste"
+        },
+        {
+          "time": "2026-10-19T20:15:53.180Z",
+          "launch": 2,
+          "phase": "S6"
+        },
+        {
+          "time": "2026-10-19T20:15:53.180Z",
+          "launch": 2,
+          "phase": "consultation profil"
+        },
+        {
+          "time": "2026-10-19T20:15:53.188Z",
+          "launch": 2,
+          "phase": "S7"
+        }
+      ],
+      "analysis": {
+        "origins": [
+          "http://127.0.0.1:4200"
+        ],
+        "requests": 30,
+        "websocketConnections": 2,
+        "sentFrames": 0,
+        "allRequestsGetWithoutBody": true,
+        "businessMarkerMatches": [],
+        "scope": "Pages et transports observés pendant ces scénarios uniquement ; HTTP(S) et WebSocket."
+      },
+      "redaction": "Seule la valeur du jeton de connexion Vite est masquée dans les URL sauvegardées ; analyse effectuée avant masquage."
+    }
+  ],
+  "reopenings": [
+    {
+      "profile": "pc",
+      "profilePathBefore": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-pc-2026-10-19T20-15-43-420Z",
+      "profilePathAfter": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-pc-2026-10-19T20-15-43-420Z",
+      "originBefore": "http://127.0.0.1:4200",
+      "before": "{\"version\":1,\"profile\":{\"skills\":[\"Angular fictif\",\"Java fictif\"],\"desiredJob\":\"PC Autre métier fictif JV-P4\",\"desiredSalaryRange\":\"40–45 k€ fictifs\",\"workingHours\":\"35 h fictives\",\"remoteWork\":\"Trois jours fictifs\",\"location\":\"Ville fictive JV-P4\",\"desiredContract\":\"CDI fictif\"},\"interviews\":[{\"company\":\"PC Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"PC Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"OK\",\"id\":\"f13d35bf-82e5-4d5c-afa1-03a78ab7f361\"},{\"company\":\"PC Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"PC Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"Pas top\",\"id\":\"2fc638a7-2d7d-42eb-beb9-65e650654d48\"},{\"company\":\"PC Sauvegarde fictive refusée JV-P4\",\"date\":\"2026-10-19\",\"position\":\"PC Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"id\":\"29cf3160-0d4b-4e43-a5a6-76c5bc3d9328\"}]}",
+      "closeStarted": "2026-10-19T20:15:45.559Z",
+      "browserVersion": "155.0.8059.85",
+      "launchOptions": {
+        "executablePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+        "headless": true,
+        "viewport": {
+          "width": 1440,
+          "height": 900
+        },
+        "reducedMotion": "reduce",
+        "isMobile": false,
+        "hasTouch": false
+      },
+      "closeCompleted": "2026-10-19T20:15:45.653Z",
+      "disconnectedAt": "2026-10-19T20:15:45.585Z",
+      "isConnectedAfterClose": false,
+      "relaunchStarted": "2026-10-19T20:15:45.653Z",
+      "serverStatusAfter": 200,
+      "originAfter": "http://127.0.0.1:4200",
+      "after": "{\"version\":1,\"profile\":{\"skills\":[\"Angular fictif\",\"Java fictif\"],\"desiredJob\":\"PC Autre métier fictif JV-P4\",\"desiredSalaryRange\":\"40–45 k€ fictifs\",\"workingHours\":\"35 h fictives\",\"remoteWork\":\"Trois jours fictifs\",\"location\":\"Ville fictive JV-P4\",\"desiredContract\":\"CDI fictif\"},\"interviews\":[{\"company\":\"PC Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"PC Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"OK\",\"id\":\"f13d35bf-82e5-4d5c-afa1-03a78ab7f361\"},{\"company\":\"PC Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"PC Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"Pas top\",\"id\":\"2fc638a7-2d7d-42eb-beb9-65e650654d48\"},{\"company\":\"PC Sauvegarde fictive refusée JV-P4\",\"date\":\"2026-10-19\",\"position\":\"PC Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"id\":\"29cf3160-0d4b-4e43-a5a6-76c5bc3d9328\"}]}",
+      "reopened": "2026-10-19T20:15:46.050Z",
+      "uiProfileFieldsVerified": 7,
+      "uiInterviewsVerified": 3,
+      "status": "réussi"
+    },
+    {
+      "profile": "mobile-390",
+      "profilePathBefore": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-mobile-390-2026-10-19T20-15-43-420Z",
+      "profilePathAfter": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-mobile-390-2026-10-19T20-15-43-420Z",
+      "originBefore": "http://127.0.0.1:4200",
+      "before": "{\"version\":1,\"profile\":{\"skills\":[\"Angular fictif\",\"Java fictif\"],\"desiredJob\":\"M390 Autre métier fictif JV-P4\",\"desiredSalaryRange\":\"40–45 k€ fictifs\",\"workingHours\":\"35 h fictives\",\"remoteWork\":\"Trois jours fictifs\",\"location\":\"Ville fictive JV-P4\",\"desiredContract\":\"CDI fictif\"},\"interviews\":[{\"company\":\"M390 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M390 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"OK\",\"id\":\"3ebdaa06-5a43-4ec6-ae30-423ca5d9040f\"},{\"company\":\"M390 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M390 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"Pas top\",\"id\":\"83f08a37-e141-4422-9336-2c6145ffb442\"},{\"company\":\"M390 Sauvegarde fictive refusée JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M390 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"id\":\"51ee6ed6-648e-444f-bc92-be258bb095d4\"}]}",
+      "closeStarted": "2026-10-19T20:15:49.039Z",
+      "browserVersion": "155.0.8059.85",
+      "launchOptions": {
+        "executablePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+        "headless": true,
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "reducedMotion": "reduce",
+        "isMobile": true,
+        "hasTouch": true,
+        "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36"
+      },
+      "closeCompleted": "2026-10-19T20:15:49.124Z",
+      "disconnectedAt": "2026-10-19T20:15:49.062Z",
+      "isConnectedAfterClose": false,
+      "relaunchStarted": "2026-10-19T20:15:49.124Z",
+      "serverStatusAfter": 200,
+      "originAfter": "http://127.0.0.1:4200",
+      "after": "{\"version\":1,\"profile\":{\"skills\":[\"Angular fictif\",\"Java fictif\"],\"desiredJob\":\"M390 Autre métier fictif JV-P4\",\"desiredSalaryRange\":\"40–45 k€ fictifs\",\"workingHours\":\"35 h fictives\",\"remoteWork\":\"Trois jours fictifs\",\"location\":\"Ville fictive JV-P4\",\"desiredContract\":\"CDI fictif\"},\"interviews\":[{\"company\":\"M390 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M390 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"OK\",\"id\":\"3ebdaa06-5a43-4ec6-ae30-423ca5d9040f\"},{\"company\":\"M390 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M390 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"Pas top\",\"id\":\"83f08a37-e141-4422-9336-2c6145ffb442\"},{\"company\":\"M390 Sauvegarde fictive refusée JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M390 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"id\":\"51ee6ed6-648e-444f-bc92-be258bb095d4\"}]}",
+      "reopened": "2026-10-19T20:15:49.515Z",
+      "uiProfileFieldsVerified": 7,
+      "uiInterviewsVerified": 3,
+      "status": "réussi"
+    },
+    {
+      "profile": "mobile-320",
+      "profilePathBefore": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-mobile-320-2026-10-19T20-15-43-420Z",
+      "profilePathAfter": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-mobile-320-2026-10-19T20-15-43-420Z",
+      "originBefore": "http://127.0.0.1:4200",
+      "before": "{\"version\":1,\"profile\":{\"skills\":[\"Angular fictif\",\"Java fictif\"],\"desiredJob\":\"M320 Autre métier fictif JV-P4\",\"desiredSalaryRange\":\"40–45 k€ fictifs\",\"workingHours\":\"35 h fictives\",\"remoteWork\":\"Trois jours fictifs\",\"location\":\"Ville fictive JV-P4\",\"desiredContract\":\"CDI fictif\"},\"interviews\":[{\"company\":\"M320 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M320 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"OK\",\"id\":\"f02305a5-69e3-429c-9b68-6dceb48a4de7\"},{\"company\":\"M320 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M320 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"Pas top\",\"id\":\"e605d0a3-44cb-4e26-ad89-932e0a4d2410\"},{\"company\":\"M320 Sauvegarde fictive refusée JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M320 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"id\":\"6212e8c1-9285-454a-8c94-8bddd6a50258\"}]}",
+      "closeStarted": "2026-10-19T20:15:52.215Z",
+      "browserVersion": "155.0.8059.85",
+      "launchOptions": {
+        "executablePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+        "headless": true,
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "reducedMotion": "reduce",
+        "isMobile": true,
+        "hasTouch": true,
+        "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36"
+      },
+      "closeCompleted": "2026-10-19T20:15:52.300Z",
+      "disconnectedAt": "2026-10-19T20:15:52.237Z",
+      "isConnectedAfterClose": false,
+      "relaunchStarted": "2026-10-19T20:15:52.300Z",
+      "serverStatusAfter": 200,
+      "originAfter": "http://127.0.0.1:4200",
+      "after": "{\"version\":1,\"profile\":{\"skills\":[\"Angular fictif\",\"Java fictif\"],\"desiredJob\":\"M320 Autre métier fictif JV-P4\",\"desiredSalaryRange\":\"40–45 k€ fictifs\",\"workingHours\":\"35 h fictives\",\"remoteWork\":\"Trois jours fictifs\",\"location\":\"Ville fictive JV-P4\",\"desiredContract\":\"CDI fictif\"},\"interviews\":[{\"company\":\"M320 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M320 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"OK\",\"id\":\"f02305a5-69e3-429c-9b68-6dceb48a4de7\"},{\"company\":\"M320 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M320 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"Pas top\",\"id\":\"e605d0a3-44cb-4e26-ad89-932e0a4d2410\"},{\"company\":\"M320 Sauvegarde fictive refusée JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M320 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"id\":\"6212e8c1-9285-454a-8c94-8bddd6a50258\"}]}",
+      "reopened": "2026-10-19T20:15:52.733Z",
+      "uiProfileFieldsVerified": 7,
+      "uiInterviewsVerified": 3,
+      "status": "réussi"
+    }
+  ],
+  "finished": "2026-10-19T20:15:53.267Z",
+  "status": "réussi"
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "profile": "pc",
+    "profilePathBefore": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-pc-2026-10-19T20-15-43-420Z",
+    "profilePathAfter": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-pc-2026-10-19T20-15-43-420Z",
+    "originBefore": "http://127.0.0.1:4200",
+    "before": "{\"version\":1,\"profile\":{\"skills\":[\"Angular fictif\",\"Java fictif\"],\"desiredJob\":\"PC Autre métier fictif JV-P4\",\"desiredSalaryRange\":\"40–45 k€ fictifs\",\"workingHours\":\"35 h fictives\",\"remoteWork\":\"Trois jours fictifs\",\"location\":\"Ville fictive JV-P4\",\"desiredContract\":\"CDI fictif\"},\"interviews\":[{\"company\":\"PC Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"PC Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"OK\",\"id\":\"f13d35bf-82e5-4d5c-afa1-03a78ab7f361\"},{\"company\":\"PC Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"PC Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"Pas top\",\"id\":\"2fc638a7-2d7d-42eb-beb9-65e650654d48\"},{\"company\":\"PC Sauvegarde fictive refusée JV-P4\",\"date\":\"2026-10-19\",\"position\":\"PC Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"id\":\"29cf3160-0d4b-4e43-a5a6-76c5bc3d9328\"}]}",
+    "closeStarted": "2026-10-19T20:15:45.559Z",
+    "browserVersion": "155.0.8059.85",
+    "launchOptions": {
+      "executablePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+      "headless": true,
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "reducedMotion": "reduce",
+      "isMobile": false,
+      "hasTouch": false
+    },
+    "closeCompleted": "2026-10-19T20:15:45.653Z",
+    "disconnectedAt": "2026-10-19T20:15:45.585Z",
+    "isConnectedAfterClose": false,
+    "relaunchStarted": "2026-10-19T20:15:45.653Z",
+    "serverStatusAfter": 200,
+    "originAfter": "http://127.0.0.1:4200",
+    "after": "{\"version\":1,\"profile\":{\"skills\":[\"Angular fictif\",\"Java fictif\"],\"desiredJob\":\"PC Autre métier fictif JV-P4\",\"desiredSalaryRange\":\"40–45 k€ fictifs\",\"workingHours\":\"35 h fictives\",\"remoteWork\":\"Trois jours fictifs\",\"location\":\"Ville fictive JV-P4\",\"desiredContract\":\"CDI fictif\"},\"interviews\":[{\"company\":\"PC Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"PC Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"OK\",\"id\":\"f13d35bf-82e5-4d5c-afa1-03a78ab7f361\"},{\"company\":\"PC Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"PC Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"Pas top\",\"id\":\"2fc638a7-2d7d-42eb-beb9-65e650654d48\"},{\"company\":\"PC Sauvegarde fictive refusée JV-P4\",\"date\":\"2026-10-19\",\"position\":\"PC Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"id\":\"29cf3160-0d4b-4e43-a5a6-76c5bc3d9328\"}]}",
+    "reopened": "2026-10-19T20:15:46.050Z",
+    "uiProfileFieldsVerified": 7,
+    "uiInterviewsVerified": 3,
+    "status": "réussi"
+  },
+  {
+    "profile": "mobile-390",
+    "profilePathBefore": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-mobile-390-2026-10-19T20-15-43-420Z",
+    "profilePathAfter": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-mobile-390-2026-10-19T20-15-43-420Z",
+    "originBefore": "http://127.0.0.1:4200",
+    "before": "{\"version\":1,\"profile\":{\"skills\":[\"Angular fictif\",\"Java fictif\"],\"desiredJob\":\"M390 Autre métier fictif JV-P4\",\"desiredSalaryRange\":\"40–45 k€ fictifs\",\"workingHours\":\"35 h fictives\",\"remoteWork\":\"Trois jours fictifs\",\"location\":\"Ville fictive JV-P4\",\"desiredContract\":\"CDI fictif\"},\"interviews\":[{\"company\":\"M390 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M390 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"OK\",\"id\":\"3ebdaa06-5a43-4ec6-ae30-423ca5d9040f\"},{\"company\":\"M390 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M390 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"Pas top\",\"id\":\"83f08a37-e141-4422-9336-2c6145ffb442\"},{\"company\":\"M390 Sauvegarde fictive refusée JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M390 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"id\":\"51ee6ed6-648e-444f-bc92-be258bb095d4\"}]}",
+    "closeStarted": "2026-10-19T20:15:49.039Z",
+    "browserVersion": "155.0.8059.85",
+    "launchOptions": {
+      "executablePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+      "headless": true,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "reducedMotion": "reduce",
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36"
+    },
+    "closeCompleted": "2026-10-19T20:15:49.124Z",
+    "disconnectedAt": "2026-10-19T20:15:49.062Z",
+    "isConnectedAfterClose": false,
+    "relaunchStarted": "2026-10-19T20:15:49.124Z",
+    "serverStatusAfter": 200,
+    "originAfter": "http://127.0.0.1:4200",
+    "after": "{\"version\":1,\"profile\":{\"skills\":[\"Angular fictif\",\"Java fictif\"],\"desiredJob\":\"M390 Autre métier fictif JV-P4\",\"desiredSalaryRange\":\"40–45 k€ fictifs\",\"workingHours\":\"35 h fictives\",\"remoteWork\":\"Trois jours fictifs\",\"location\":\"Ville fictive JV-P4\",\"desiredContract\":\"CDI fictif\"},\"interviews\":[{\"company\":\"M390 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M390 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"OK\",\"id\":\"3ebdaa06-5a43-4ec6-ae30-423ca5d9040f\"},{\"company\":\"M390 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M390 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"Pas top\",\"id\":\"83f08a37-e141-4422-9336-2c6145ffb442\"},{\"company\":\"M390 Sauvegarde fictive refusée JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M390 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"id\":\"51ee6ed6-648e-444f-bc92-be258bb095d4\"}]}",
+    "reopened": "2026-10-19T20:15:49.515Z",
+    "uiProfileFieldsVerified": 7,
+    "uiInterviewsVerified": 3,
+    "status": "réussi"
+  },
+  {
+    "profile": "mobile-320",
+    "profilePathBefore": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-mobile-320-2026-10-19T20-15-43-420Z",
+    "profilePathAfter": "C:/dev/Perso/Learn/dymacourse/dyma-claude/.angular/jobview-phase4/chromium-mobile-320-2026-10-19T20-15-43-420Z",
+    "originBefore": "http://127.0.0.1:4200",
+    "before": "{\"version\":1,\"profile\":{\"skills\":[\"Angular fictif\",\"Java fictif\"],\"desiredJob\":\"M320 Autre métier fictif JV-P4\",\"desiredSalaryRange\":\"40–45 k€ fictifs\",\"workingHours\":\"35 h fictives\",\"remoteWork\":\"Trois jours fictifs\",\"location\":\"Ville fictive JV-P4\",\"desiredContract\":\"CDI fictif\"},\"interviews\":[{\"company\":\"M320 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M320 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"OK\",\"id\":\"f02305a5-69e3-429c-9b68-6dceb48a4de7\"},{\"company\":\"M320 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M320 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"Pas top\",\"id\":\"e605d0a3-44cb-4e26-ad89-932e0a4d2410\"},{\"company\":\"M320 Sauvegarde fictive refusée JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M320 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"id\":\"6212e8c1-9285-454a-8c94-8bddd6a50258\"}]}",
+    "closeStarted": "2026-10-19T20:15:52.215Z",
+    "browserVersion": "155.0.8059.85",
+    "launchOptions": {
+      "executablePath": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+      "headless": true,
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "reducedMotion": "reduce",
+      "isMobile": true,
+      "hasTouch": true,
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Mobile Safari/537.36"
+    },
+    "closeCompleted": "2026-10-19T20:15:52.300Z",
+    "disconnectedAt": "2026-10-19T20:15:52.237Z",
+    "isConnectedAfterClose": false,
+    "relaunchStarted": "2026-10-19T20:15:52.300Z",
+    "serverStatusAfter": 200,
+    "originAfter": "http://127.0.0.1:4200",
+    "after": "{\"version\":1,\"profile\":{\"skills\":[\"Angular fictif\",\"Java fictif\"],\"desiredJob\":\"M320 Autre métier fictif JV-P4\",\"desiredSalaryRange\":\"40–45 k€ fictifs\",\"workingHours\":\"35 h fictives\",\"remoteWork\":\"Trois jours fictifs\",\"location\":\"Ville fictive JV-P4\",\"desiredContract\":\"CDI fictif\"},\"interviews\":[{\"company\":\"M320 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M320 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"OK\",\"id\":\"f02305a5-69e3-429c-9b68-6dceb48a4de7\"},{\"company\":\"M320 Entreprise fictive JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M320 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"feeling\":\"Pas top\",\"id\":\"e605d0a3-44cb-4e26-ad89-932e0a4d2410\"},{\"company\":\"M320 Sauvegarde fictive refusée JV-P4\",\"date\":\"2026-10-19\",\"position\":\"M320 Poste fictif JV-P4\",\"contract\":\"CDI fictif\",\"conditionsRating\":0,\"id\":\"6212e8c1-9285-454a-8c94-8bddd6a50258\"}]}",
+    "reopened": "2026-10-19T20:15:52.733Z",
+    "uiProfileFieldsVerified": 7,
+    "uiInterviewsVerified": 3,
+    "status": "réussi"
+  }
+]

@@ -1,6 +1,6 @@
 # Phase 3 — validation et preuves
 
-Statut : **gate locale de phase 3 validée le 19 octobre 2026** ; implémentation commitée localement dans `11c2724`. [Issue #3](https://github.com/GARNIER-Emmanuel/dyma-claude/issues/3) fermée comme terminée le même jour. Branche non publiée et phase 4 non réalisée.
+Statut : **gate locale de phase 3 validée le 19 octobre 2026** ; implémentation commitée dans `11c2724`. [Issue #3](https://github.com/GARNIER-Emmanuel/dyma-claude/issues/3) fermée comme terminée le même jour. La [recette locale de phase 4](../04-recette-finale/validation.md) a ensuite été réalisée et validée ; les états de publication ci-dessous décrivent les revues historiques de phase 3.
 
 Références : [spécification](spec.md) et [plan](plan-implementation.md).
 

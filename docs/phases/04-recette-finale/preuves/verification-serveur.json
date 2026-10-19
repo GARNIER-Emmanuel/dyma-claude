@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-10-19T20:20:59.7238749Z",
+  "origin": "http://127.0.0.1:4200/",
+  "resource": "main.js",
+  "status": 200,
+  "comparison": "sourcesContent de la source map servie comparé aux fichiers locaux ; CRLF/LF et fin de fichier normalisés",
+  "sources": [
+    {
+      "path": "src/app/app.config.ts",
+      "identical": true
+    },
+    {
+      "path": "src/app/app.ts",
+      "identical": true
+    },
+    {
+      "path": "src/app/app.html",
+      "identical": true
+    },
+    {
+      "path": "src/app/profile/profile-form.ts",
+      "identical": true
+    },
+    {
+      "path": "src/app/profile/profile-form.html",
+      "identical": true
+    },
+    {
+      "path": "src/app/interviews/interview-form.ts",
+      "identical": true
+    },
+    {
+      "path": "src/app/interviews/interview-form.html",
+      "identical": true
+    },
+    {
+      "path": "src/app/interviews/interview-validation.ts",
+      "identical": true
+    },
+    {
+      "path": "src/app/interviews/interview-list.ts",
+      "identical": true
+    },
+    {
+      "path": "src/app/interviews/interview-list.html",
+      "identical": true
+    },
+    {
+      "path": "src/app/interviews/interview-detail.ts",
+      "identical": true
+    },
+    {
+      "path": "src/app/interviews/interview-detail.html",
+      "identical": true
+    },
+    {
+      "path": "src/app/storage/jobview-storage.ts",
+      "identical": true
+    },
+    {
+      "path": "src/app/storage/storage-data.ts",
+      "identical": true
+    },
+    {
+      "path": "src/app/storage/storage-messages.ts",
+      "identical": true
+    }
+  ],
+  "unchangedApplicationReference": "11c2724",
+  "executionReference": "9ec7287",
+  "existingServerPreserved": true
+}

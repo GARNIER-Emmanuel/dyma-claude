@@ -1,0 +1,59 @@
+{
+  "started": "2026-10-19T20:10:51.735Z",
+  "finished": "2026-10-19T20:11:18.784Z",
+  "cause": "Erreur du pilote de recette : le bouton de navigation conserve l'écran courant ; cliquer sur le retour explicite avant de chercher Nouvel entretien. Aucune modification applicative.",
+  "additionalPilotAdjustments": [
+    "Attendre le rendu des quatre attributs aria-invalid et des messages Angular avant assertion.",
+    "Attendre la visibilité de l'espace entretiens après navigation avant de détecter l'écran détail/formulaire.",
+    "Limiter la recherche du titre au détail pour distinguer les deux entretiens de même entreprise.",
+    "Choisir explicitement le premier bouton de détail dans le parcours clavier lorsque plusieurs entretiens existent."
+  ],
+  "finalOutcome": "21 scénarios réussis lors de l'exécution complète 2026-10-19T20:15:43.420Z ; aucune modification applicative.",
+  "profiles": [
+    {
+      "name": "pc",
+      "error": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Nouvel entretien' })\u001b[22m\n",
+      "scenarios": [
+        {
+          "id": "S1",
+          "status": "réussi"
+        },
+        {
+          "id": "S2",
+          "status": "échoué",
+          "error": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Nouvel entretien' })\u001b[22m\n"
+        }
+      ]
+    },
+    {
+      "name": "mobile-390",
+      "error": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Nouvel entretien' })\u001b[22m\n",
+      "scenarios": [
+        {
+          "id": "S1",
+          "status": "réussi"
+        },
+        {
+          "id": "S2",
+          "status": "échoué",
+          "error": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Nouvel entretien' })\u001b[22m\n"
+        }
+      ]
+    },
+    {
+      "name": "mobile-320",
+      "error": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Nouvel entretien' })\u001b[22m\n",
+      "scenarios": [
+        {
+          "id": "S1",
+          "status": "réussi"
+        },
+        {
+          "id": "S2",
+          "status": "échoué",
+          "error": "locator.click: Timeout 8000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Nouvel entretien' })\u001b[22m\n"
+        }
+      ]
+    }
+  ]
+}

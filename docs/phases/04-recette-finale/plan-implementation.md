@@ -1,6 +1,6 @@
 # Phase 4 — plan détaillé de recette finale
 
-Statut : **plan approuvé le 19 octobre 2026 par le message utilisateur « commit puis implemente » ; exécution de la recette autorisée après le commit documentaire**.
+Statut : **plan approuvé le 19 octobre 2026 par « commit puis implemente », puis exécuté après le commit documentaire `9ec7287` ; gate locale validée**. Résultats et limites dans [validation.md](validation.md).
 
 Références : [issue #5](https://github.com/GARNIER-Emmanuel/dyma-claude/issues/5), [spécification](spec.md), [tranche verticale](../../../tranche-verticale.md), [conception](../../../design-doc.md), [consignes du dépôt](../../../AGENTS.md) et [consignes applicatives](../../../src/app/AGENTS.md).
 
@@ -21,6 +21,8 @@ Recette locale du parcours existant : profil, création sans profil préalable, 
 Vercel, hors connexion, synchronisation, tris/filtres, modification/suppression d'entretiens et effacement global sont exclus. Toute anomalie sera décrite avec sa correction proposée et soumise à accord avant modification de l'application.
 
 ## Environnement et prérequis techniques
+
+Les prérequis ci-dessous décrivent la préparation. À l'exécution, pnpm 10.15.1 fonctionne avec le cache local existant ; Chrome/Chromium 155.0.8059.85 est lancé depuis son installation existante, et le serveur JobView préexistant est conservé après vérification des sources servies. La validation consigne l'environnement effectif et les preuves.
 
 - Windows/PowerShell, Node.js **24.18.1** vérifié ; pnpm attendu **10.15.1**.
 - `pnpm --version` échoue actuellement avant démarrage : `EPERM` dans le cache Corepack utilisateur. La tentative hors bac à sable ne démarre pas (`setup refresh had errors`). Version pnpm actuelle **non vérifiée**. Résoudre cet accès dans le cadre des autorisations disponibles avant les commandes finales ; conserver les versions et protections du poste. Si le problème persiste, consigner le blocage et laisser la gate non validée.
