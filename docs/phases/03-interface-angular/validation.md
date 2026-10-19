@@ -1,6 +1,6 @@
 # Phase 3 — validation et preuves
 
-Statut : **gate locale de phase 3 validée le 19 octobre 2026**, sur l'implémentation locale non commitée. Publication GitHub et phase 4 non réalisées.
+Statut : **gate locale de phase 3 validée le 19 octobre 2026** ; implémentation commitée localement dans `11c2724`. [Issue #3](https://github.com/GARNIER-Emmanuel/dyma-claude/issues/3) fermée comme terminée le même jour. Branche non publiée et phase 4 non réalisée.
 
 Références : [spécification](spec.md) et [plan](plan-implementation.md).
 
@@ -83,8 +83,18 @@ Les revues ci-dessous sont historiques ; leurs mentions « non vérifié » et �
 
 Les gates locales des phases 1 et 2 sont documentées comme validées le 18 octobre 2026 dans leurs validations et preuves respectives. Elles ne constituent pas une recette navigateur du parcours Angular.
 
-Le profil, la création sans profil, la liste et le détail sont reliés aux contrats existants. Tous les contrôles obligatoires de phase 3 sont réussis. Publication et état de l'issue GitHub : aucun changement effectué ; l'issue reste ouverte.
+Le profil, la création sans profil, la liste et le détail sont reliés aux contrats existants. Tous les contrôles obligatoires de phase 3 sont réussis. L'issue #3 est fermée comme terminée ; la branche d'implémentation reste locale.
 
 **Non vérifié et hors de cette gate :** fermeture/réouverture complète du navigateur, inspection réseau finale, téléphone physique, autre navigateur et déploiement Vercel. Le rechargement testé ne remplace pas une réouverture complète. La limite de concurrence entre onglets de localStorage reste celle du service de phase 2.
 
-La phase 4 peut être planifiée ; elle n'est pas commencée et exige l'approbation de son propre plan. Les travaux applicatifs restent locaux, sans commit d'implémentation ni publication.
+La phase 4 peut être planifiée ; elle n'est pas commencée et exige l'approbation de son propre plan. Les travaux applicatifs sont committés localement dans `11c2724`, sans publication de la branche.
+
+## Revue de clôture du 19 octobre 2026 — issue #3
+
+- Autorisation explicite : « marque l'issue 3 complete et ferme la correctement ».
+- État contrôlé : branche `codex/phase-3-interface-angular`, HEAD `e66e4d9366a172796db01e99a92ce2b784dbd623`, arbre de travail propre avant cette revue. Implémentation et preuves incluses dans `11c2724e937057271ae91891e92178bbd35872ae` ; aucun changement du code applicatif, de sa configuration ou des preuves entre ce commit et HEAD.
+- Environnement de revue : Windows/PowerShell, Git et MCP GitHub. L'environnement d'exécution des preuves reste celui décrit plus haut.
+- **Réussi :** lecture de l'issue et de ses commentaires via le MCP (aucun commentaire), revue du plan approuvé, des gates précédentes, du code et des preuves conservées : 319 tests, compilation, types et 13 scénarios navigateur réussis. Aucun contrôle obligatoire manquant ou échoué dans ce périmètre. Les commandes et parcours navigateur n'ont pas été réexécutés pendant cette revue.
+- **Publication non réalisée :** lecture GitHub de la branche via le MCP en échec 404, référence absente. Aucun push ni merge effectué ; les références à `main` dans l'issue ne prouvent pas la publication du code de phase 3.
+- **Réussi :** huit critères cochés, bilan de clôture et limites ajoutés dans l'issue. Le MCP confirme `state: closed`, `state_reason: completed`, clôture le 19 octobre 2026 à 22:00:39 Europe/Paris.
+- Les états « non commité », « non suivi » et « issue ouverte » dans les comptes rendus antérieurs décrivent leur état historique. Cette revue actualise uniquement la documentation locale ; aucun nouveau commit effectué.

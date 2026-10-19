@@ -69,8 +69,8 @@ Le compte rendu à publier pourra reprendre ces cinq résultats, les trois fichi
 
 ## Phase 3 implémentée le 19 octobre 2026 — issue #3
 
-Le plan détaillé a été approuvé par le message utilisateur « commit les docs (pas le nouveau skill) puis tu peux implémenter ». Les quatre documents en attente ont été committés dans `f75cb31`, à l'exclusion du skill. L'implémentation suivante reste locale et non commitée sur `codex/phase-3-interface-angular`.
+Le plan détaillé a été approuvé par le message utilisateur « commit les docs (pas le nouveau skill) puis tu peux implémenter ». Les quatre documents en attente ont été committés dans `f75cb31`, à l'exclusion du skill. L'implémentation et ses preuves ont ensuite été commitées localement dans `11c2724` sur `codex/phase-3-interface-angular`.
 
 Le parcours profil → création d'entretien sans profil préalable → liste/détail est utilisable, avec erreurs de validation et de stockage visibles. Les 319 tests, la compilation, les types et 13 scénarios navigateur sont réussis. La [validation](03-interface-angular/validation.md) distingue les commandes, les observations sur PC et les viewports mobiles émulés, et les [preuves](03-interface-angular/preuves/recette-navigateur.md).
 
-La gate locale de phase 3 est validée. Le plan de phase 4 reste à préparer et à approuver ; la fermeture complète/réouverture et l'inspection réseau finale ne sont pas couvertes par cette validation. Aucun push, commentaire ou changement de l'issue GitHub n'a été effectué.
+La gate locale de phase 3 est validée. L'[issue #3](https://github.com/GARNIER-Emmanuel/dyma-claude/issues/3) a été fermée comme terminée le 19 octobre 2026, avec ses huit critères cochés et un bilan des preuves et limites. Le plan de phase 4 reste à préparer et à approuver ; la fermeture complète/réouverture et l'inspection réseau finale ne sont pas couvertes par cette validation. La branche d'implémentation n'est pas publiée ; aucun push ni merge effectué lors de la clôture.
