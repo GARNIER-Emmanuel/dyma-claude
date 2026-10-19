@@ -3,41 +3,41 @@ name: create-issues
 description: Rédiger des issues GitHub claires et concises à partir d’un besoin, d’un bug ou d’une amélioration.
 ---
 
-# Rédaction d’issues GitHub
+## Choix du format
 
-- Lis les consignes du dépôt et les documents utiles.
-- Vérifie le code concerné pour rédiger une issue précise.
-- Respecte le modèle d’issue du dépôt s’il existe.
-- Signale les informations manquantes sans inventer de règles.
-- Rédige en français, avec un titre court et un contenu proportionné au besoin.
+- Si le dépôt possède un modèle d’issue applicable, respecter ce modèle.
+- Sinon, utiliser obligatoirement la structure ci-dessous, sauf demande explicite contraire de l’utilisateur.
+- Une issue existante peut servir de référence pour le contenu, mais ne remplace pas cette structure.
+- Les fichiers `references/bug.md`, `references/feature.md` et `references/technical.md` servent à identifier les informations pertinentes ; leurs rubriques ne remplacent pas le format obligatoire.
 
-## Modèles
+## Format obligatoire
 
-Choisis le modèle adapté :
-- Bug : [references/bug.md](references/bug.md).
-- Fonctionnalité : [references/feature.md](references/feature.md).
-- Amélioration technique : [references/technical.md](references/technical.md).
-
-Privilégie le modèle du dépôt s’il existe.
-Adapte les rubriques au besoin et retire les sections inutiles.
-Remplace les exemples de critères par des résultats vérifiables.
-
-## Format par défaut
+Chaque brouillon contient un titre court, puis exactement ces quatre rubriques, dans cet ordre et avec ces intitulés :
 
 ### Contexte
-Problème constaté ou besoin à couvrir.
+
+Décrire le problème constaté ou le besoin à couvrir.
 
 ### Objectif
-Résultat attendu et périmètre de l’issue.
+
+Préciser le résultat attendu et le périmètre de l’issue.
 
 ### Travail à réaliser
-Liste courte des actions nécessaires.
+
+Présenter une liste courte des actions nécessaires.
 
 ### Critères d’acceptation
-Liste à cocher de résultats concrets et vérifiables.
 
-Ajoute les fichiers concernés, références et exclusions si utiles.
-Pour un bug, précise les étapes de reproduction et les comportements constaté et attendu.
+Présenter une liste à cocher de résultats concrets et vérifiables.
 
-Présente le brouillon dans la conversation.
-Publie sur GitHub uniquement si l’utilisateur le demande explicitement.
+## Adaptations autorisées
+
+- Adapter le contenu et sa longueur au besoin.
+- Conserver les quatre rubriques : ne pas les supprimer, les renommer ou les réordonner.
+- Ajouter uniquement les rubriques facultatives « Hors périmètre » et « Références », après les critères d’acceptation, lorsqu’elles sont utiles.
+- Intégrer les prérequis, dépendances et informations manquantes dans les rubriques existantes.
+- Pour un bug, préciser la reproduction et les comportements constaté et attendu dans « Contexte ».
+
+## Vérification avant présentation
+
+Vérifier que le brouillon respecte le modèle applicable, l’ordre des rubriques et les critères vérifiables. Corriger tout écart avant de présenter le résultat.

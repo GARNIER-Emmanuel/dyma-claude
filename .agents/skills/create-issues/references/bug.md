@@ -1,22 +1,36 @@
-# [Bug] Titre décrivant le problème
+# [Bug] Titre court décrivant le dysfonctionnement
 
-## Problème
-Description courte du dysfonctionnement.
+## Contexte
 
-## Reproduction
+Décrire le problème, les conditions dans lesquelles il apparaît et son impact.
+
+Préciser les étapes de reproduction :
 1. …
 2. …
 3. …
 
-## Résultat constaté
-Ce qui se produit.
+Indiquer le résultat constaté et, si disponibles, l’environnement, le message d’erreur ou une capture.
 
-## Résultat attendu
-Ce qui devrait se produire.
+## Objectif
+
+Décrire le comportement attendu après correction.
+
+## Travail à réaliser
+
+- Identifier la cause du dysfonctionnement.
+- Corriger le comportement concerné.
+- Ajouter ou adapter un test de non-régression si pertinent.
 
 ## Critères d’acceptation
-- [ ] Le problème ne se reproduit plus dans le scénario décrit.
-- [ ] Un test de non-régression couvre le cas, si pertinent.
 
-## Informations utiles
-Environnement, capture ou message d’erreur, si disponibles.
+- [ ] Le scénario de reproduction produit le comportement attendu.
+- [ ] Les cas limites identifiés sont vérifiés.
+- [ ] Les comportements existants concernés restent fonctionnels.
+
+## Hors périmètre
+
+Préciser les changements exclus de cette correction, si nécessaire.
+
+## Références
+
+Ajouter les fichiers, captures, logs ou issues liés au problème.
