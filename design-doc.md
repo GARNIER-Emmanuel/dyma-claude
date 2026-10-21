@@ -45,14 +45,3 @@ Toutes les lectures, écritures et suppressions localStorage passent par ce serv
 Les textes saisis sont affichés comme du texte, jamais comme du HTML exécutable. Aucune donnée métier ne quitte le navigateur et aucun contenu personnel réel n’est ajouté au dépôt ou aux tests. L’effacement cible uniquement les données JobView.
 
 Le site est compilé en fichiers statiques pour Vercel Hobby. Une adresse stable est conservée, car les données dépendent de l’origine du site. Sans export ni sauvegarde, leur perte ne permet pas de récupération ; cette limite est acceptée pour la V1.
-
-## Prochaine étape et checklist
-
-Construire d’abord un parcours complet : renseigner le profil, enregistrer un entretien avec les quatre champs obligatoires et les évaluations, puis retrouver les mêmes données après fermeture et réouverture du navigateur à la même adresse. Compléter ensuite les tris et filtres.
-
-- [ ] Le profil et un entretien persistent après fermeture et réouverture du navigateur.
-- [ ] Les champs obligatoires, les notes de 0 à 10, les notes absentes, la modification, les tris et chaque filtre sont vérifiés avec des données fictives.
-- [ ] Des tests ciblés couvrent un stockage refusé, saturé, illisible ou d’une version inconnue, sans écrasement des données existantes et avec une erreur visible.
-- [ ] L’inspection réseau confirme qu’aucune donnée métier n’est transmise ; les suppressions demandent confirmation et l’effacement retire uniquement les données JobView.
-- [ ] Le parcours fonctionne sur mobile et PC à l’adresse Vercel stable, avec des données indépendantes.
-- [ ] La licence est choisie avant diffusion.

@@ -4,7 +4,7 @@ JobView est une application Angular de suivi des entretiens et de comparaison de
 
 ## Références
 
-- [design-doc.md](design-doc.md) et [tranche-verticale.md](tranche-verticale.md) : périmètre et règles métier.
+- [design-doc.md](design-doc.md) : périmètre et règles métier de la V1 ; [tranche-verticale.md](tranche-verticale.md) : parcours retenu et fonctionnalités reportées.
 - [README.md](README.md) : installation ; [index des phases](docs/phases/README.md) : spécifications, plans et preuves.
 - [src/app/AGENTS.md](src/app/AGENTS.md) : organisation, logique métier et sécurité du stockage. Lire ces consignes avant de modifier l'application.
 
@@ -42,9 +42,10 @@ Une demande d'analyse seule reste en lecture seule. Avant toute modification, in
 
 Lire l'issue et les [documents de phase 3](docs/phases/03-interface-angular/spec.md), vérifier les preuves des phases 1 et 2 et les contrats disponibles dans le code. Préparer ou actualiser le plan avec ses exclusions, retrouver ou obtenir son approbation avant de modifier les composants, puis consigner les contrôles dans sa validation. Cet exemple n'autorise aucune implémentation.
 
-## Revue déléguée
+## Agents du projet
 
-- Le principal peut appeler `reviewer-jobview` sans nouvelle demande utilisateur si une modification métier, de stockage ou de sécurité, ou une validation de phase, justifie une seconde lecture. Éviter les appels pour de simples textes ou mises en forme.
+- Les définitions locales sont dans `.codex/agents/` : `analyse_code` pour le code, `analyse_tests` pour la couverture des tests, `audit_securite` pour la sécurité et `redacteur-issue-econome` pour les brouillons d'issues. Respecter leurs missions et restrictions.
+- Pour une revue déléguée autorisée, choisir l'agent adapté au périmètre. Éviter les appels pour de simples textes ou mises en forme.
 - Fournir une cible précise, le périmètre approuvé, les extraits utiles et les résultats des contrôles déjà disponibles. Réutiliser une revue existante si rien de pertinent n'a changé.
 - Annoncer l'appel et sa cible, puis restituer brièvement les constats et limites au retour. Le principal reste responsable des corrections et validations.
 

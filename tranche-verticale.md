@@ -26,13 +26,11 @@ Le déploiement Vercel et sa recette à une adresse stable seront validés sépa
 
 Ce plan s’appuie sur [design-doc.md](design-doc.md), [README.md](README.md), [AGENTS.md](AGENTS.md), [src/app/AGENTS.md](src/app/AGENTS.md) et les sources actuelles. Le design-doc décrit une V1 plus large ; les limites ci-dessus en sélectionnent le premier parcours.
 
-La lecture de `src/main.ts`, `src/app/app.ts`, `src/app/app.html`, `src/app/app.config.ts` et `src/app/app.spec.ts` confirme un démarrage Angular, l’affichage du titre et un test de démarrage. Les types métier, validations, formulaires et service de stockage restent à construire. Cette lecture ne constitue pas une exécution des tests.
-
-Le dépôt contient une seule application Angular, avec ses sources dans `src/`. Les futurs composants, types, fonctions et service seront placés dans `src/app/`, avec les tests à proximité. Les composants géreront l’affichage, les fonctions pures les validations et un service Angular unique la persistance. Aucune couche ou package partagé supplémentaire n’est prévu sans besoin concret.
+Le dépôt contient une seule application Angular, avec ses sources dans `src/`. Les composants, types et validations sont regroupés dans `src/app/profile/` et `src/app/interviews/`, avec les tests à proximité. Le service `JobViewStorage` et le format versionné sont dans `src/app/storage/`. Le composant racine relie le profil, la création d’entretien, la liste et le détail à ce service. Aucune couche ou package partagé supplémentaire n’est prévu sans besoin concret.
 
 L’environnement de référence est Node.js **24.18.1** et pnpm **10.15.1**. Les scripts existants sont `pnpm dev`, `pnpm test` et `pnpm build` ; aucun script lint ou typecheck n’est prévu. Les tests utilisent Vitest, jsdom et Angular TestBed selon leur périmètre.
 
-Les phases sont successives. Chaque gate ci-dessous exige des résultats observés et des preuves avant de passer à la suivante. **Toutes ces vérifications restent à réaliser ; aucune gate n’est déclarée réussie.** Les signatures, représentations précises, algorithmes et cas limites détaillés seront fixés dans le plan d’implémentation de chaque phase, en commençant par la phase 1.
+Les phases sont successives. Chaque gate ci-dessous exige des résultats observés et des preuves avant de passer à la suivante. Ce document définit le périmètre et les critères ; les choix détaillés, les résultats datés et les limites de validation sont consignés dans les [plans et validations par phase](docs/phases/README.md).
 
 ## Phase 1 — Données et validations métier
 
@@ -137,4 +135,4 @@ Un compte rendu de recette indiquant les scénarios, l’environnement, les rés
 - **Résultat attendu :** les deux commandes réussissent ; le profil et les entretiens enregistrés sont retrouvés après réouverture ; les règles et erreurs sont respectées ; le parcours fonctionne sur mobile et PC ; aucune donnée métier n’est transmise sur le réseau pendant les scénarios observés.
 - **Preuve nécessaire :** sorties réussies de `pnpm test` et `pnpm build`, compte rendu de recette avec adresse et navigateur utilisés, constats avant/après fermeture, preuves visuelles du parcours mobile et relevé réseau associé aux scénarios. Tout contrôle absent reste explicitement « non vérifié » et empêche de déclarer la tranche validée.
 
-La clôture de cette tranche autorisera la planification des fonctionnalités reportées. La prochaine étape immédiate reste la rédaction du plan d’implémentation de la phase 1 ; ce document n’engage aucune implémentation.
+Les fonctionnalités reportées nécessitent un périmètre et un plan approuvés avant leur implémentation.

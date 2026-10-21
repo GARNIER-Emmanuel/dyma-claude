@@ -31,12 +31,16 @@ pnpm build
 
 Une seule application, avec ses sources dans `src/` et sa configuration à la racine. Aucun CLI ni package partagé n’est nécessaire.
 
-Les futurs écrans, types métier et service de stockage seront ajoutés dans `src/app/` au fil des fonctionnalités. Les composants passeront par un seul service pour accéder à localStorage, sans multiplier les couches ou les abstractions.
+Les écrans, types métier, validations et tests sont regroupés dans `src/app/profile/` et `src/app/interviews/`. Le service unique `JobViewStorage` et le format de stockage versionné sont dans `src/app/storage/`. Le composant racine relie les formulaires, la liste et le détail à ce service.
 
 Les versions directes sont exactes et `pnpm-lock.yaml` verrouille les dépendances transitives. `.npmrc` conserve une installation à plat adaptée aux contraintes Windows et un cache local ignoré par Git. Seul le script d’installation d’esbuild est autorisé, dans la configuration `pnpm` de `package.json`.
 
-## État actuel
+## Périmètre et preuves
 
-L'interface affiche uniquement « JobView ». Les modèles et validations métier (phase 1) et le service de persistance locale protégée (phase 2) sont implémentés et vérifiés localement : 270 tests, compilation et vérification TypeScript réussis. Les [preuves par phase](docs/phases/README.md) détaillent ces contrôles. La prochaine étape est le parcours Angular profil → création d'un entretien → sauvegarde (phase 3), puis la recette avec réouverture réelle du navigateur (phase 4). Le déploiement reste à réaliser.
+L'application permet d'enregistrer le profil, de créer un entretien sans profil préalable, puis de le retrouver dans la liste et de consulter son détail. Les limites de ce parcours sont décrites dans [tranche-verticale.md](tranche-verticale.md). La modification et la suppression des entretiens, l'effacement global, les tris, la recherche et les filtres sont reportés.
+
+Les résultats datés des tests, de la compilation et des recettes locales sont conservés dans les [validations par phase](docs/phases/README.md). Ils décrivent les états du code et les environnements testés ; ils ne valent pas une nouvelle exécution sur le dépôt courant.
+
+## Déploiement Vercel
 
 Pour Vercel, utiliser la racine du projet, Node.js 24 compatible avec les moteurs déclarés, pnpm 10.15.1, la commande `pnpm build` et le répertoire de sortie `dist/jobview/browser/`. Le déploiement et le maintien d’une adresse stable restent à valider. La licence reste à choisir avant diffusion.
