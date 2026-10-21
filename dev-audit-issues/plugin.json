@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dev-audit-issues",
+  "version": "0.2.0",
+  "description": "Auditer un projet en lecture seule et transformer les constats retenus en brouillons d'issues GitHub en français.",
+  "keywords": ["audit", "github", "issues", "development"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Dev — Audit et issues",
+        "shortDescription": "Audit et brouillons d'issues",
+        "longDescription": "Deux skills autonomes pour examiner un projet sans le modifier et rédiger des issues fondées sur des constats vérifiés. Aucune publication automatique.",
+        "capabilities": [],
+        "defaultPrompt": [
+          "Utilise audit-express du plugin dev-audit-issues pour examiner ce projet en lecture seule.",
+          "Utilise create-issues du plugin dev-audit-issues pour préparer un brouillon à partir du constat que je sélectionne."
+        ]
+      }
+    }
+  }
+}

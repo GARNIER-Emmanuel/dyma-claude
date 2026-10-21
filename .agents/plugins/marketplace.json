@@ -1,0 +1,20 @@
+{
+  "name": "dyma-claude-cours",
+  "interface": {
+    "displayName": "Dyma Claude — Plugins du cours"
+  },
+  "plugins": [
+    {
+      "name": "dev-audit-issues",
+      "source": {
+        "source": "local",
+        "path": "./dev-audit-issues"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
