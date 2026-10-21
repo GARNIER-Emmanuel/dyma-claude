@@ -1,5 +1,14 @@
 # JobView
 
+<p align="center">
+  <img src="./assets/certification-claude-code.png" alt="Certificat de réussite Claude Code" width="800" />
+</p>
+<p align="center">
+  📄 <a href="./assets/certification-claude-code.pdf">Consulter le certificat officiel au format PDF</a>
+</p>
+
+> **Formation Claude Code validée le 21 octobre 2026 (25 heures de formation).**
+
 Une application Angular pour conserver ses entretiens et comparer les propositions d’emploi. Le périmètre est décrit dans [design-doc.md](design-doc.md).
 
 ## Prérequis et commandes
